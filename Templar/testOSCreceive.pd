@@ -1,0 +1,17 @@
+#N canvas 14 595 375 238 12;
+#X obj 40 77 oscparse;
+#X obj 40 181 bng 30 250 50 0 empty empty empty 17 7 0 10 -260097 -1
+-1;
+#X obj 119 179 bng 30 250 50 0 empty empty empty 17 7 0 10 -260097
+-1 -1;
+#X obj 40 105 list trim;
+#X text 38 23 OSC receiver for testing puissance4trigger;
+#X obj 40 53 netreceive -u -b 8185;
+#X obj 40 129 route btn;
+#X obj 40 155 sel 1 2, f 23;
+#X connect 0 0 3 0;
+#X connect 3 0 6 0;
+#X connect 5 0 0 0;
+#X connect 6 0 7 0;
+#X connect 7 0 1 0;
+#X connect 7 1 2 0;
