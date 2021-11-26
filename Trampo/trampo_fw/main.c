@@ -15,8 +15,10 @@ unsigned char triggered = 0;
 unsigned int maximum;
 t_delay maxDelay;
 unsigned int millisCount = 0;
-#define WINDOW_MS 100
-#define RESTART_MS 500
+unsigned int window_ms = 100;
+unsigned int restart_ms = 500;
+//#define WINDOW_MS 100
+//#define RESTART_MS 500
 
 void setup(void) {	
 //----------- Setup ----------------
@@ -46,7 +48,7 @@ void trampoService()
 	} else {
 		if(triggered) {
 			if(current > maximum) maximum = current;
-			if(millisCount > WINDOW_MS) {
+			if(millisCount > window_ms) {
 				printf("CT %d\n", maximum);
 				triggered = 0;
 			}
@@ -54,7 +56,7 @@ void trampoService()
 		}
 		if(tmp_presence) millisCount = 0;
 		else {
-			if(millisCount > RESTART_MS) presence = 0;
+			if(millisCount > restart_ms) presence = 0;
 		}
 	}
 }
@@ -100,10 +102,9 @@ void fraiseReceive()
 {
 	unsigned char c = fraiseGetChar();
 	
-	if(c == 1) printf("CC'etait 1\n");
-	else if(c == 2) {
-		long int l;
-		l = fraiseGetLong();
-		printf("CLa c'est 2 avec: %ld\n", l);
+	switch(c) {
+		PARAM_INT(1, threshold); break;
+		PARAM_INT(2, window_ms); break;
+		PARAM_INT(3, restart_ms); break;
 	}
 }
