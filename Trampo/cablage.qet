@@ -1,798 +1,798 @@
-<project version="0.60" folioSheetQuantity="0" title="">
+<project folioSheetQuantity="0" version="0.60" title="">
     <properties/>
     <newdiagrams>
-        <border cols="17" displaycols="true" rowsize="80" rows="8" displayrows="true" colsize="60"/>
-        <inset date="null" machine="" locmach="" author="" version="" folio="%id/%total" filename="" indexrev="" auto_page_num="Créer un Folio Numérotation Auto" title="" displayAt="bottom"/>
-        <conductors type="multi" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" tension-protocol="" displaytext="0"/>
+        <border rowsize="80" displaycols="true" displayrows="true" cols="17" colsize="60" rows="8"/>
+        <inset machine="" locmach="" displayAt="bottom" version="" date="null" filename="" folio="%id/%total" author="" indexrev="" title="" auto_page_num="Créer un Folio Numérotation Auto"/>
+        <conductors num="" numsize="7" onetextperfolio="0" type="multi" horizrotatetext="0" condsize="1" function="" displaytext="0" tension-protocol="" vertirotatetext="270" formula=""/>
         <report label="%f-%l%c"/>
         <xrefs>
-            <xref type="coil" delayprefix="" snapto="label" powerprefix="" showpowerctc="false" switchprefix="" offset="40" displayhas="cross" master_label="%f-%l%c" slave_label="(%f-%l%c)"/>
-            <xref type="commutator" delayprefix="" snapto="label" powerprefix="" showpowerctc="false" switchprefix="" offset="0" displayhas="cross" master_label="%f-%l%c" slave_label="(%f-%l%c)"/>
-            <xref type="protection" delayprefix="" snapto="label" powerprefix="" showpowerctc="false" switchprefix="" offset="0" displayhas="cross" master_label="%f-%l%c" slave_label="(%f-%l%c)"/>
+            <xref showpowerctc="false" switchprefix="" snapto="label" type="commutator" master_label="%f-%l%c" displayhas="cross" slave_label="(%f-%l%c)" delayprefix="" offset="0" powerprefix=""/>
+            <xref showpowerctc="false" switchprefix="" snapto="label" type="protection" master_label="%f-%l%c" displayhas="cross" slave_label="(%f-%l%c)" delayprefix="" offset="0" powerprefix=""/>
+            <xref showpowerctc="false" switchprefix="" snapto="label" type="coil" master_label="%f-%l%c" displayhas="cross" slave_label="(%f-%l%c)" delayprefix="" offset="40" powerprefix=""/>
         </xrefs>
         <conductors_autonums freeze_new_conductors="false" current_autonum=""/>
         <folio_autonums/>
-        <element_autonums freeze_new_elements="true" current_autonum=""/>
+        <element_autonums current_autonum="" freeze_new_elements="true"/>
     </newdiagrams>
-    <diagram locmach="" order="1" displaycols="true" machine="" auto_page_num="Créer un Folio Numérotation Auto" version="0.60" rows="8" folio="%id/%total" displayAt="bottom" height="660" indexrev="" author="metalu.net" date="20211109" freezeNewElement="false" colsize="60" cols="17" displayrows="true" title="câblage Trampoline" freezeNewConductor="false" filename="" rowsize="80">
-        <defaultconductor type="multi" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" tension-protocol="" displaytext="0"/>
+    <diagram freezeNewConductor="false" displaycols="true" folio="%id/%total" date="20211109" rowsize="80" auto_page_num="Créer un Folio Numérotation Auto" locmach="" cols="17" indexrev="" machine="" height="660" title="câblage Trampoline" version="0.60" author="metalu.net" freezeNewElement="false" displayrows="true" filename="" order="1" displayAt="bottom" colsize="60" rows="8">
+        <defaultconductor num="" numsize="7" onetextperfolio="0" type="multi" horizrotatetext="0" condsize="1" function="" displaytext="0" tension-protocol="" vertirotatetext="270" formula=""/>
         <elements>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="120" orientation="1" uuid="{fa1b5d0a-78c2-4d81-8048-297f9a5209a9}" prefix="X" x="440">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="440" y="120" freezeLabel="true" uuid="{fa1b5d0a-78c2-4d81-8048-297f9a5209a9}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="0" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="0" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="270" userx="0" text="Alim" x="-5.5" usery="40"/>
+                    <input text="Alim" x="-5.5" y="21" userrotation="270" userx="0" usery="40"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">Alim</elementInformation>
-                    <elementInformation name="label" show="1">Alim</elementInformation>
+                    <elementInformation show="1" name="label">Alim</elementInformation>
+                    <elementInformation show="1" name="formula">Alim</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="110" orientation="1" uuid="{122c540e-1fa0-49dc-94d5-1c9004646950}" prefix="X" x="150">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="150" y="110" freezeLabel="true" uuid="{122c540e-1fa0-49dc-94d5-1c9004646950}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="1" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="1" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="270" userx="0" text="USB" x="-5.5" usery="40"/>
+                    <input text="USB" x="-5.5" y="21" userrotation="270" userx="0" usery="40"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">USB</elementInformation>
-                    <elementInformation name="label" show="1">USB</elementInformation>
+                    <elementInformation show="1" name="label">USB</elementInformation>
+                    <elementInformation show="1" name="formula">USB</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="100" orientation="3" uuid="{3d75a7d8-b9d1-40e2-991b-519718d29433}" prefix="X" x="70">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="70" y="100" freezeLabel="true" uuid="{3d75a7d8-b9d1-40e2-991b-519718d29433}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="2" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="2" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="-0.427887" text="240V" x="-5.5" usery="5.16784"/>
+                    <input text="240V" x="-5.5" y="21" userrotation="90" userx="-0.427887" usery="5.16784"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">240V</elementInformation>
-                    <elementInformation name="label" show="1">240V</elementInformation>
+                    <elementInformation show="1" name="label">240V</elementInformation>
+                    <elementInformation show="1" name="formula">240V</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="180" orientation="1" uuid="{7d9efa5a-a796-4e63-9f07-204ade2b02f4}" prefix="X" x="300">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="300" y="180" freezeLabel="true" uuid="{7d9efa5a-a796-4e63-9f07-204ade2b02f4}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="3" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="3" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="270" userx="0" text="12V" x="-5.5" usery="40"/>
+                    <input text="12V" x="-5.5" y="21" userrotation="270" userx="0" usery="40"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">12V</elementInformation>
-                    <elementInformation name="label" show="1">12V</elementInformation>
+                    <elementInformation show="1" name="label">12V</elementInformation>
+                    <elementInformation show="1" name="formula">12V</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="110" orientation="3" uuid="{d617d8ba-74a4-4747-a1fb-a047f19be65a}" prefix="X" x="200">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="200" y="110" freezeLabel="true" uuid="{d617d8ba-74a4-4747-a1fb-a047f19be65a}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="4" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="4" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="USB" x="-5.5" usery="5.88891"/>
+                    <input text="USB" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">USB</elementInformation>
-                    <elementInformation name="label" show="1">USB</elementInformation>
+                    <elementInformation show="1" name="label">USB</elementInformation>
+                    <elementInformation show="1" name="formula">USB</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="180" orientation="3" uuid="{11732f2a-f2d9-4356-94d2-ccc87c479054}" prefix="X" x="200">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="200" y="180" freezeLabel="true" uuid="{11732f2a-f2d9-4356-94d2-ccc87c479054}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="5" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="5" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="-0.427887" text="240V" x="-5.5" usery="5.16784"/>
+                    <input text="240V" x="-5.5" y="21" userrotation="90" userx="-0.427887" usery="5.16784"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">240V</elementInformation>
-                    <elementInformation name="label" show="1">240V</elementInformation>
+                    <elementInformation show="1" name="label">240V</elementInformation>
+                    <elementInformation show="1" name="formula">240V</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="110" orientation="1" uuid="{d280adff-59e0-4471-91cf-f4594400337f}" prefix="X" x="300">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="300" y="110" freezeLabel="true" uuid="{d280adff-59e0-4471-91cf-f4594400337f}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="6" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="6" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="270" userx="0" text="Nappe" x="-5.5" usery="50"/>
+                    <input text="Nappe" x="-5.5" y="21" userrotation="270" userx="0" usery="50"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">Nappe</elementInformation>
-                    <elementInformation name="label" show="1">Nappe</elementInformation>
+                    <elementInformation show="1" name="label">Nappe</elementInformation>
+                    <elementInformation show="1" name="formula">Nappe</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="110" orientation="3" uuid="{8407af1d-251e-419c-a3d5-836491f7016b}" prefix="X" x="340">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="340" y="110" freezeLabel="true" uuid="{8407af1d-251e-419c-a3d5-836491f7016b}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="7" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="7" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="Nappe" x="-5.5" usery="5.88891"/>
+                    <input text="Nappe" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">Nappe</elementInformation>
-                    <elementInformation name="label" show="1">Nappe</elementInformation>
+                    <elementInformation show="1" name="label">Nappe</elementInformation>
+                    <elementInformation show="1" name="formula">Nappe</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" freezeLabel="true" y="80" orientation="3" uuid="{d11d68fb-2bd5-438c-af05-da66d89fece0}" prefix="X" x="530">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" x="530" y="80" freezeLabel="true" uuid="{d11d68fb-2bd5-438c-af05-da66d89fece0}">
                 <terminals>
-                    <terminal y="6" orientation="2" number="_" name="_" id="8" x="0" nameHidden="0"/>
+                    <terminal orientation="2" id="8" x="0" y="6" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="1.5" userrotation="90" userx="10" text="PixLedM" x="5" usery="-10"/>
+                    <input text="PixLedM" x="5" y="1.5" userrotation="90" userx="10" usery="-10"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">PixLedM</elementInformation>
+                    <elementInformation show="1" name="label">PixLedM</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="80" orientation="1" uuid="{b6c8d387-22a1-4202-b8c9-471b0a5daf67}" prefix="X" x="440">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="440" y="80" freezeLabel="true" uuid="{b6c8d387-22a1-4202-b8c9-471b0a5daf67}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="9" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="9" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="270" userx="0" text="RJ11" x="-5.5" usery="40"/>
+                    <input text="RJ11" x="-5.5" y="21" userrotation="270" userx="0" usery="40"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">RJ11</elementInformation>
-                    <elementInformation name="label" show="1">RJ11</elementInformation>
+                    <elementInformation show="1" name="label">RJ11</elementInformation>
+                    <elementInformation show="1" name="formula">RJ11</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" freezeLabel="true" y="80" orientation="3" uuid="{f7d2a7d2-1737-4d3c-8b71-45fdb4884fee}" prefix="X" x="510">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" x="510" y="80" freezeLabel="true" uuid="{f7d2a7d2-1737-4d3c-8b71-45fdb4884fee}">
                 <terminals>
-                    <terminal y="-7" orientation="0" number="_" name="_" id="10" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="10" x="0" y="-7" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="-7.5" userrotation="90" userx="10" text="PixLedF" x="4" usery="-40"/>
+                    <input text="PixLedF" x="4" y="-7.5" userrotation="90" userx="10" usery="-40"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">PixLedF</elementInformation>
+                    <elementInformation show="1" name="label">PixLedF</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" freezeLabel="true" y="290" orientation="1" uuid="{01889e5a-ade8-4d11-a312-12861c3f9014}" prefix="X" x="800">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" x="800" y="290" freezeLabel="true" uuid="{01889e5a-ade8-4d11-a312-12861c3f9014}">
                 <terminals>
-                    <terminal y="6" orientation="2" number="_" name="_" id="11" x="0" nameHidden="0"/>
+                    <terminal orientation="2" id="11" x="0" y="6" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="1.5" userrotation="270" userx="-10" text="" x="5" usery="30"/>
+                    <input text="" x="5" y="1.5" userrotation="270" userx="-10" usery="30"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" freezeLabel="true" y="290" orientation="3" uuid="{ec013022-b699-46af-a59b-81b5033c6f52}" prefix="X" x="310">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" x="310" y="290" freezeLabel="true" uuid="{ec013022-b699-46af-a59b-81b5033c6f52}">
                 <terminals>
-                    <terminal y="6" orientation="2" number="_" name="_" id="12" x="0" nameHidden="0"/>
+                    <terminal orientation="2" id="12" x="0" y="6" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="1.5" userrotation="90" userx="10" text="PixLedM" x="5" usery="-10"/>
+                    <input text="PixLedM" x="5" y="1.5" userrotation="90" userx="10" usery="-10"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">PixLedM</elementInformation>
+                    <elementInformation show="1" name="label">PixLedM</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="290" orientation="3" uuid="{848f48f9-abc3-4788-95d2-04a503d172b6}" prefix="X" x="380">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="380" y="290" freezeLabel="true" uuid="{848f48f9-abc3-4788-95d2-04a503d172b6}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="13" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="13" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="RJ11" x="-5.5" usery="5.88891"/>
+                    <input text="RJ11" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">RJ11</elementInformation>
-                    <elementInformation name="label" show="1">RJ11</elementInformation>
+                    <elementInformation show="1" name="label">RJ11</elementInformation>
+                    <elementInformation show="1" name="formula">RJ11</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="290" orientation="1" uuid="{b8dd9020-efb3-4109-81f9-ceaea0935701}" prefix="X" x="770">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="770" y="290" freezeLabel="true" uuid="{b8dd9020-efb3-4109-81f9-ceaea0935701}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="14" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="14" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="270" userx="0" text="3mm" x="-5.5" usery="40"/>
+                    <input text="3mm" x="-5.5" y="21" userrotation="270" userx="0" usery="40"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">3mm</elementInformation>
-                    <elementInformation name="label" show="1">3mm</elementInformation>
+                    <elementInformation show="1" name="label">3mm</elementInformation>
+                    <elementInformation show="1" name="formula">3mm</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="310" orientation="3" uuid="{3e4fe7fe-f461-4eb5-a292-0e43adff8a5a}" prefix="X" x="510">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="510" y="310" freezeLabel="true" uuid="{3e4fe7fe-f461-4eb5-a292-0e43adff8a5a}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="15" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="15" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="Nappe" x="-5.5" usery="5.88891"/>
+                    <input text="Nappe" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">Nappe</elementInformation>
-                    <elementInformation name="label" show="1">Nappe</elementInformation>
+                    <elementInformation show="1" name="label">Nappe</elementInformation>
+                    <elementInformation show="1" name="formula">Nappe</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="310" orientation="1" uuid="{acf4891a-eeab-4a4e-8726-6c1816a24525}" prefix="X" x="480">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="480" y="310" freezeLabel="true" uuid="{acf4891a-eeab-4a4e-8726-6c1816a24525}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="16" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="16" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="270" userx="0" text="Nappe" x="-5.5" usery="50"/>
+                    <input text="Nappe" x="-5.5" y="21" userrotation="270" userx="0" usery="50"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">Nappe</elementInformation>
-                    <elementInformation name="label" show="1">Nappe</elementInformation>
+                    <elementInformation show="1" name="label">Nappe</elementInformation>
+                    <elementInformation show="1" name="formula">Nappe</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="290" orientation="3" uuid="{e905c0fa-f91e-4165-b6fd-0eb60ee9b071}" prefix="X" x="900">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="900" y="290" freezeLabel="true" uuid="{e905c0fa-f91e-4165-b6fd-0eb60ee9b071}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="17" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="17" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="1" x="-5.5" usery="5.88891"/>
+                    <input text="1" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">1</elementInformation>
+                    <elementInformation show="1" name="label">1</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="290" orientation="1" uuid="{d6cf410b-71a9-4486-b3aa-08aaeb47114c}" prefix="X" x="610">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="610" y="290" freezeLabel="true" uuid="{d6cf410b-71a9-4486-b3aa-08aaeb47114c}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="18" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="18" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="270" userx="0" text="K1" x="-5.5" usery="30"/>
+                    <input text="K1" x="-5.5" y="21" userrotation="270" userx="0" usery="30"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">K1</elementInformation>
-                    <elementInformation name="label" show="1">K1</elementInformation>
+                    <elementInformation show="1" name="label">K1</elementInformation>
+                    <elementInformation show="1" name="formula">K1</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="290" orientation="3" uuid="{aa851407-53b8-459f-8f63-561a6f3d8e79}" prefix="X" x="650">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="650" y="290" freezeLabel="true" uuid="{aa851407-53b8-459f-8f63-561a6f3d8e79}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="19" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="19" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="" x="-5.5" usery="5.88891"/>
+                    <input text="" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" freezeLabel="true" y="290" orientation="1" uuid="{8123d217-0015-4db8-a5ba-d4dc9b3005df}" prefix="X" x="820">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" x="820" y="290" freezeLabel="true" uuid="{8123d217-0015-4db8-a5ba-d4dc9b3005df}">
                 <terminals>
-                    <terminal y="-7" orientation="0" number="_" name="_" id="20" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="20" x="0" y="-7" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="-7.5" userrotation="270" userx="-10" text="" x="4" usery="30"/>
+                    <input text="" x="4" y="-7.5" userrotation="270" userx="-10" usery="30"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" freezeLabel="true" y="290" orientation="3" uuid="{e4234401-eda2-4b7d-8537-978f9ff21f8e}" prefix="X" x="290">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" x="290" y="290" freezeLabel="true" uuid="{e4234401-eda2-4b7d-8537-978f9ff21f8e}">
                 <terminals>
-                    <terminal y="-7" orientation="0" number="_" name="_" id="21" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="21" x="0" y="-7" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="-7.5" userrotation="90" userx="10" text="PixLedF" x="4" usery="-40"/>
+                    <input text="PixLedF" x="4" y="-7.5" userrotation="90" userx="10" usery="-40"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">PixLedF</elementInformation>
+                    <elementInformation show="1" name="label">PixLedF</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" freezeLabel="true" y="390" orientation="1" uuid="{2b3e870d-86d8-4244-816e-5133f6b8fc31}" prefix="X" x="800">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" x="800" y="390" freezeLabel="true" uuid="{2b3e870d-86d8-4244-816e-5133f6b8fc31}">
                 <terminals>
-                    <terminal y="6" orientation="2" number="_" name="_" id="22" x="0" nameHidden="0"/>
+                    <terminal orientation="2" id="22" x="0" y="6" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="1.5" userrotation="270" userx="-10" text="" x="5" usery="30"/>
+                    <input text="" x="5" y="1.5" userrotation="270" userx="-10" usery="30"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" freezeLabel="true" y="310" orientation="1" uuid="{17397e31-595c-465c-bcbb-9cb24e358ee9}" prefix="X" x="300">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" x="300" y="310" freezeLabel="true" uuid="{17397e31-595c-465c-bcbb-9cb24e358ee9}">
                 <terminals>
-                    <terminal y="-7" orientation="0" number="_" name="_" id="23" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="23" x="0" y="-7" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="-7.5" userrotation="270" userx="10" text="PixLedF" x="4" usery="0"/>
+                    <input text="PixLedF" x="4" y="-7.5" userrotation="270" userx="10" usery="0"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">PixLedF</elementInformation>
+                    <elementInformation show="1" name="label">PixLedF</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" freezeLabel="true" y="590" orientation="1" uuid="{d5658eba-4bbe-448d-b8e2-11509dec742f}" prefix="X" x="800">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" x="800" y="590" freezeLabel="true" uuid="{d5658eba-4bbe-448d-b8e2-11509dec742f}">
                 <terminals>
-                    <terminal y="6" orientation="2" number="_" name="_" id="24" x="0" nameHidden="0"/>
+                    <terminal orientation="2" id="24" x="0" y="6" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="1.5" userrotation="270" userx="-10" text="" x="5" usery="30"/>
+                    <input text="" x="5" y="1.5" userrotation="270" userx="-10" usery="30"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" freezeLabel="true" y="310" orientation="1" uuid="{39bf8f99-c9ef-401e-ad3e-326f33b4602a}" prefix="X" x="280">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" x="280" y="310" freezeLabel="true" uuid="{39bf8f99-c9ef-401e-ad3e-326f33b4602a}">
                 <terminals>
-                    <terminal y="6" orientation="2" number="_" name="_" id="25" x="0" nameHidden="0"/>
+                    <terminal orientation="2" id="25" x="0" y="6" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="1.5" userrotation="270" userx="10" text="PixLedM" x="5" usery="40"/>
+                    <input text="PixLedM" x="5" y="1.5" userrotation="270" userx="10" usery="40"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">PixLedM</elementInformation>
+                    <elementInformation show="1" name="label">PixLedM</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" freezeLabel="true" y="490" orientation="1" uuid="{14930745-a7c5-42f0-8397-d31d872e957c}" prefix="X" x="800">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" x="800" y="490" freezeLabel="true" uuid="{14930745-a7c5-42f0-8397-d31d872e957c}">
                 <terminals>
-                    <terminal y="6" orientation="2" number="_" name="_" id="26" x="0" nameHidden="0"/>
+                    <terminal orientation="2" id="26" x="0" y="6" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="1.5" userrotation="270" userx="-10" text="" x="5" usery="30"/>
+                    <input text="" x="5" y="1.5" userrotation="270" userx="-10" usery="30"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="390" orientation="3" uuid="{ce7c21b1-b866-454a-aaa2-b48234b5d3bd}" prefix="X" x="380">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="380" y="390" freezeLabel="true" uuid="{ce7c21b1-b866-454a-aaa2-b48234b5d3bd}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="27" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="27" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="RJ11" x="-5.5" usery="5.88891"/>
+                    <input text="RJ11" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">RJ11</elementInformation>
-                    <elementInformation name="label" show="1">RJ11</elementInformation>
+                    <elementInformation show="1" name="label">RJ11</elementInformation>
+                    <elementInformation show="1" name="formula">RJ11</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" freezeLabel="true" y="390" orientation="3" uuid="{3ebf6451-3b20-48ca-bc9e-09067497f495}" prefix="X" x="310">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" x="310" y="390" freezeLabel="true" uuid="{3ebf6451-3b20-48ca-bc9e-09067497f495}">
                 <terminals>
-                    <terminal y="6" orientation="2" number="_" name="_" id="28" x="0" nameHidden="0"/>
+                    <terminal orientation="2" id="28" x="0" y="6" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="1.5" userrotation="90" userx="10" text="PixLedM" x="5" usery="-10"/>
+                    <input text="PixLedM" x="5" y="1.5" userrotation="90" userx="10" usery="-10"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">PixLedM</elementInformation>
+                    <elementInformation show="1" name="label">PixLedM</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="410" orientation="1" uuid="{5c51ebb7-23ee-42a9-aec8-e2c8e02871ad}" prefix="X" x="480">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="480" y="410" freezeLabel="true" uuid="{5c51ebb7-23ee-42a9-aec8-e2c8e02871ad}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="29" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="29" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="270" userx="0" text="Nappe" x="-5.5" usery="50"/>
+                    <input text="Nappe" x="-5.5" y="21" userrotation="270" userx="0" usery="50"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">Nappe</elementInformation>
-                    <elementInformation name="label" show="1">Nappe</elementInformation>
+                    <elementInformation show="1" name="label">Nappe</elementInformation>
+                    <elementInformation show="1" name="formula">Nappe</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="390" orientation="1" uuid="{5028e29f-e679-490b-a67c-9b4b65839fb8}" prefix="X" x="610">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="610" y="390" freezeLabel="true" uuid="{5028e29f-e679-490b-a67c-9b4b65839fb8}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="30" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="30" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="270" userx="0" text="K1" x="-5.5" usery="30"/>
+                    <input text="K1" x="-5.5" y="21" userrotation="270" userx="0" usery="30"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">K1</elementInformation>
-                    <elementInformation name="label" show="1">K1</elementInformation>
+                    <elementInformation show="1" name="label">K1</elementInformation>
+                    <elementInformation show="1" name="formula">K1</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="390" orientation="1" uuid="{118688a3-18bc-4368-8c58-04625446f931}" prefix="X" x="770">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="770" y="390" freezeLabel="true" uuid="{118688a3-18bc-4368-8c58-04625446f931}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="31" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="31" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="270" userx="0" text="3mm" x="-5.5" usery="40"/>
+                    <input text="3mm" x="-5.5" y="21" userrotation="270" userx="0" usery="40"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">3mm</elementInformation>
-                    <elementInformation name="label" show="1">3mm</elementInformation>
+                    <elementInformation show="1" name="label">3mm</elementInformation>
+                    <elementInformation show="1" name="formula">3mm</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="310" orientation="3" uuid="{5849c219-d6cb-4a36-800e-599c0efde5e7}" prefix="X" x="380">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="380" y="310" freezeLabel="true" uuid="{5849c219-d6cb-4a36-800e-599c0efde5e7}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="32" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="32" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="RJ11" x="-5.5" usery="5.88891"/>
+                    <input text="RJ11" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">RJ11</elementInformation>
-                    <elementInformation name="label" show="1">RJ11</elementInformation>
+                    <elementInformation show="1" name="label">RJ11</elementInformation>
+                    <elementInformation show="1" name="formula">RJ11</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="410" orientation="3" uuid="{6c389e99-f87b-4928-a71a-d04b24b44ff0}" prefix="X" x="510">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="510" y="410" freezeLabel="true" uuid="{6c389e99-f87b-4928-a71a-d04b24b44ff0}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="33" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="33" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="Nappe" x="-5.5" usery="5.88891"/>
+                    <input text="Nappe" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">Nappe</elementInformation>
-                    <elementInformation name="label" show="1">Nappe</elementInformation>
+                    <elementInformation show="1" name="label">Nappe</elementInformation>
+                    <elementInformation show="1" name="formula">Nappe</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="390" orientation="3" uuid="{04dfaf82-280f-4ec0-83a6-f6d56a9a0640}" prefix="X" x="650">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="650" y="390" freezeLabel="true" uuid="{04dfaf82-280f-4ec0-83a6-f6d56a9a0640}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="34" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="34" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="" x="-5.5" usery="5.88891"/>
+                    <input text="" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" freezeLabel="true" y="390" orientation="1" uuid="{70740cc9-a5cd-4cc2-afda-d77d9e8c84ae}" prefix="X" x="820">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" x="820" y="390" freezeLabel="true" uuid="{70740cc9-a5cd-4cc2-afda-d77d9e8c84ae}">
                 <terminals>
-                    <terminal y="-7" orientation="0" number="_" name="_" id="35" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="35" x="0" y="-7" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="-7.5" userrotation="270" userx="-10" text="" x="4" usery="30"/>
+                    <input text="" x="4" y="-7.5" userrotation="270" userx="-10" usery="30"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" freezeLabel="true" y="390" orientation="3" uuid="{3eb7b24e-835d-45eb-9865-f9e0dfdc87fe}" prefix="X" x="290">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" x="290" y="390" freezeLabel="true" uuid="{3eb7b24e-835d-45eb-9865-f9e0dfdc87fe}">
                 <terminals>
-                    <terminal y="-7" orientation="0" number="_" name="_" id="36" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="36" x="0" y="-7" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="-7.5" userrotation="90" userx="10" text="PixLedF" x="4" usery="-40"/>
+                    <input text="PixLedF" x="4" y="-7.5" userrotation="90" userx="10" usery="-40"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">PixLedF</elementInformation>
+                    <elementInformation show="1" name="label">PixLedF</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="390" orientation="3" uuid="{0024b902-2854-45d2-a34c-15e6587b743c}" prefix="X" x="900">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="900" y="390" freezeLabel="true" uuid="{0024b902-2854-45d2-a34c-15e6587b743c}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="37" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="37" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="1" x="-5.5" usery="5.88891"/>
+                    <input text="1" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">1</elementInformation>
+                    <elementInformation show="1" name="label">1</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" freezeLabel="true" y="410" orientation="1" uuid="{10709205-3946-4f08-b6eb-c44e1c11eb4d}" prefix="X" x="300">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" x="300" y="410" freezeLabel="true" uuid="{10709205-3946-4f08-b6eb-c44e1c11eb4d}">
                 <terminals>
-                    <terminal y="-7" orientation="0" number="_" name="_" id="38" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="38" x="0" y="-7" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="-7.5" userrotation="270" userx="10" text="PixLedF" x="4" usery="0"/>
+                    <input text="PixLedF" x="4" y="-7.5" userrotation="270" userx="10" usery="0"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">PixLedF</elementInformation>
+                    <elementInformation show="1" name="label">PixLedF</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" freezeLabel="true" y="410" orientation="1" uuid="{3d43391e-2773-4675-b7b2-4c813c1494fd}" prefix="X" x="280">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" x="280" y="410" freezeLabel="true" uuid="{3d43391e-2773-4675-b7b2-4c813c1494fd}">
                 <terminals>
-                    <terminal y="6" orientation="2" number="_" name="_" id="39" x="0" nameHidden="0"/>
+                    <terminal orientation="2" id="39" x="0" y="6" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="1.5" userrotation="270" userx="10" text="PixLedM" x="5" usery="40"/>
+                    <input text="PixLedM" x="5" y="1.5" userrotation="270" userx="10" usery="40"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">PixLedM</elementInformation>
+                    <elementInformation show="1" name="label">PixLedM</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="410" orientation="3" uuid="{225a74aa-e17b-4047-9cde-de7bb394e21f}" prefix="X" x="380">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="380" y="410" freezeLabel="true" uuid="{225a74aa-e17b-4047-9cde-de7bb394e21f}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="40" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="40" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="RJ11" x="-5.5" usery="5.88891"/>
+                    <input text="RJ11" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">RJ11</elementInformation>
-                    <elementInformation name="label" show="1">RJ11</elementInformation>
+                    <elementInformation show="1" name="label">RJ11</elementInformation>
+                    <elementInformation show="1" name="formula">RJ11</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" freezeLabel="true" y="490" orientation="3" uuid="{c69d2f33-9eee-49cd-8eb8-18c6c43feaa1}" prefix="X" x="310">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" x="310" y="490" freezeLabel="true" uuid="{c69d2f33-9eee-49cd-8eb8-18c6c43feaa1}">
                 <terminals>
-                    <terminal y="6" orientation="2" number="_" name="_" id="41" x="0" nameHidden="0"/>
+                    <terminal orientation="2" id="41" x="0" y="6" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="1.5" userrotation="90" userx="10" text="PixLedM" x="5" usery="-10"/>
+                    <input text="PixLedM" x="5" y="1.5" userrotation="90" userx="10" usery="-10"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">PixLedM</elementInformation>
+                    <elementInformation show="1" name="label">PixLedM</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="490" orientation="3" uuid="{9563f53e-a3bf-4314-b878-2b9784b03da2}" prefix="X" x="380">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="380" y="490" freezeLabel="true" uuid="{9563f53e-a3bf-4314-b878-2b9784b03da2}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="42" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="42" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="RJ11" x="-5.5" usery="5.88891"/>
+                    <input text="RJ11" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">RJ11</elementInformation>
-                    <elementInformation name="label" show="1">RJ11</elementInformation>
+                    <elementInformation show="1" name="label">RJ11</elementInformation>
+                    <elementInformation show="1" name="formula">RJ11</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="490" orientation="1" uuid="{fff77108-2038-49d6-96a1-a6a733cd6b0d}" prefix="X" x="770">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="770" y="490" freezeLabel="true" uuid="{fff77108-2038-49d6-96a1-a6a733cd6b0d}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="43" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="43" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="270" userx="0" text="3mm" x="-5.5" usery="40"/>
+                    <input text="3mm" x="-5.5" y="21" userrotation="270" userx="0" usery="40"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">3mm</elementInformation>
-                    <elementInformation name="label" show="1">3mm</elementInformation>
+                    <elementInformation show="1" name="label">3mm</elementInformation>
+                    <elementInformation show="1" name="formula">3mm</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="510" orientation="3" uuid="{2409c16f-13ea-4c7e-a20b-2b353ba59714}" prefix="X" x="510">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="510" y="510" freezeLabel="true" uuid="{2409c16f-13ea-4c7e-a20b-2b353ba59714}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="44" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="44" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="Nappe" x="-5.5" usery="5.88891"/>
+                    <input text="Nappe" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">Nappe</elementInformation>
-                    <elementInformation name="label" show="1">Nappe</elementInformation>
+                    <elementInformation show="1" name="label">Nappe</elementInformation>
+                    <elementInformation show="1" name="formula">Nappe</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="510" orientation="1" uuid="{a9d006d4-b898-4ba4-8ce6-5ba89d2af1ea}" prefix="X" x="480">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="480" y="510" freezeLabel="true" uuid="{a9d006d4-b898-4ba4-8ce6-5ba89d2af1ea}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="45" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="45" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="270" userx="0" text="Nappe" x="-5.5" usery="50"/>
+                    <input text="Nappe" x="-5.5" y="21" userrotation="270" userx="0" usery="50"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">Nappe</elementInformation>
-                    <elementInformation name="label" show="1">Nappe</elementInformation>
+                    <elementInformation show="1" name="label">Nappe</elementInformation>
+                    <elementInformation show="1" name="formula">Nappe</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="490" orientation="3" uuid="{e7acfadf-a10f-4006-9273-61ff77dbbed0}" prefix="X" x="900">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="900" y="490" freezeLabel="true" uuid="{e7acfadf-a10f-4006-9273-61ff77dbbed0}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="46" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="46" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="1" x="-5.5" usery="5.88891"/>
+                    <input text="1" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">1</elementInformation>
+                    <elementInformation show="1" name="label">1</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="490" orientation="1" uuid="{6c304eae-ddf9-4d2e-991e-7b2ee5a3012f}" prefix="X" x="610">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="610" y="490" freezeLabel="true" uuid="{6c304eae-ddf9-4d2e-991e-7b2ee5a3012f}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="47" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="47" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="270" userx="0" text="K1" x="-5.5" usery="30"/>
+                    <input text="K1" x="-5.5" y="21" userrotation="270" userx="0" usery="30"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">K1</elementInformation>
-                    <elementInformation name="label" show="1">K1</elementInformation>
+                    <elementInformation show="1" name="label">K1</elementInformation>
+                    <elementInformation show="1" name="formula">K1</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="490" orientation="3" uuid="{20fd96a4-2dd4-414d-9f32-8efb8b083bbe}" prefix="X" x="650">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="650" y="490" freezeLabel="true" uuid="{20fd96a4-2dd4-414d-9f32-8efb8b083bbe}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="48" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="48" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="" x="-5.5" usery="5.88891"/>
+                    <input text="" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" freezeLabel="true" y="490" orientation="1" uuid="{9ca7c3c1-3a7d-46b6-8cd0-932e1f9af445}" prefix="X" x="820">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" x="820" y="490" freezeLabel="true" uuid="{9ca7c3c1-3a7d-46b6-8cd0-932e1f9af445}">
                 <terminals>
-                    <terminal y="-7" orientation="0" number="_" name="_" id="49" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="49" x="0" y="-7" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="-7.5" userrotation="270" userx="-10" text="" x="4" usery="30"/>
+                    <input text="" x="4" y="-7.5" userrotation="270" userx="-10" usery="30"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" freezeLabel="true" y="490" orientation="3" uuid="{e56595d6-c7e4-480d-b863-2446f39c7f63}" prefix="X" x="290">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" x="290" y="490" freezeLabel="true" uuid="{e56595d6-c7e4-480d-b863-2446f39c7f63}">
                 <terminals>
-                    <terminal y="-7" orientation="0" number="_" name="_" id="50" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="50" x="0" y="-7" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="-7.5" userrotation="90" userx="10" text="PixLedF" x="4" usery="-40"/>
+                    <input text="PixLedF" x="4" y="-7.5" userrotation="90" userx="10" usery="-40"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">PixLedF</elementInformation>
+                    <elementInformation show="1" name="label">PixLedF</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" freezeLabel="true" y="510" orientation="1" uuid="{56309d5c-9e83-42b5-b8e1-553a2a3943f8}" prefix="X" x="300">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" x="300" y="510" freezeLabel="true" uuid="{56309d5c-9e83-42b5-b8e1-553a2a3943f8}">
                 <terminals>
-                    <terminal y="-7" orientation="0" number="_" name="_" id="51" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="51" x="0" y="-7" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="-7.5" userrotation="270" userx="10" text="PixLedF" x="4" usery="0"/>
+                    <input text="PixLedF" x="4" y="-7.5" userrotation="270" userx="10" usery="0"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">PixLedF</elementInformation>
+                    <elementInformation show="1" name="label">PixLedF</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" freezeLabel="true" y="510" orientation="1" uuid="{68755291-a25b-45dc-856f-b89f8b587100}" prefix="X" x="280">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" x="280" y="510" freezeLabel="true" uuid="{68755291-a25b-45dc-856f-b89f8b587100}">
                 <terminals>
-                    <terminal y="6" orientation="2" number="_" name="_" id="52" x="0" nameHidden="0"/>
+                    <terminal orientation="2" id="52" x="0" y="6" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="1.5" userrotation="270" userx="10" text="PixLedM" x="5" usery="40"/>
+                    <input text="PixLedM" x="5" y="1.5" userrotation="270" userx="10" usery="40"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">PixLedM</elementInformation>
+                    <elementInformation show="1" name="label">PixLedM</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="510" orientation="3" uuid="{35bfbc7f-6ae5-4a8e-a85c-e51c8bc2229b}" prefix="X" x="380">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="380" y="510" freezeLabel="true" uuid="{35bfbc7f-6ae5-4a8e-a85c-e51c8bc2229b}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="53" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="53" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="RJ11" x="-5.5" usery="5.88891"/>
+                    <input text="RJ11" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">RJ11</elementInformation>
-                    <elementInformation name="label" show="1">RJ11</elementInformation>
+                    <elementInformation show="1" name="label">RJ11</elementInformation>
+                    <elementInformation show="1" name="formula">RJ11</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" freezeLabel="true" y="590" orientation="3" uuid="{502a6a50-3b1b-41e9-b691-834fd6c300a2}" prefix="X" x="310">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" x="310" y="590" freezeLabel="true" uuid="{502a6a50-3b1b-41e9-b691-834fd6c300a2}">
                 <terminals>
-                    <terminal y="6" orientation="2" number="_" name="_" id="54" x="0" nameHidden="0"/>
+                    <terminal orientation="2" id="54" x="0" y="6" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="1.5" userrotation="90" userx="10" text="PixLedM" x="5" usery="-10"/>
+                    <input text="PixLedM" x="5" y="1.5" userrotation="90" userx="10" usery="-10"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">PixLedM</elementInformation>
+                    <elementInformation show="1" name="label">PixLedM</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="590" orientation="3" uuid="{33807f81-067f-4d5e-aa67-fb1dbf056082}" prefix="X" x="380">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="380" y="590" freezeLabel="true" uuid="{33807f81-067f-4d5e-aa67-fb1dbf056082}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="55" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="55" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="RJ11" x="-5.5" usery="5.88891"/>
+                    <input text="RJ11" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">RJ11</elementInformation>
-                    <elementInformation name="label" show="1">RJ11</elementInformation>
+                    <elementInformation show="1" name="label">RJ11</elementInformation>
+                    <elementInformation show="1" name="formula">RJ11</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="590" orientation="1" uuid="{a82a793e-92e6-49a2-9755-064e5f5b3b76}" prefix="X" x="770">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="770" y="590" freezeLabel="true" uuid="{a82a793e-92e6-49a2-9755-064e5f5b3b76}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="56" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="56" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="270" userx="0" text="3mm" x="-5.5" usery="40"/>
+                    <input text="3mm" x="-5.5" y="21" userrotation="270" userx="0" usery="40"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">3mm</elementInformation>
-                    <elementInformation name="label" show="1">3mm</elementInformation>
+                    <elementInformation show="1" name="label">3mm</elementInformation>
+                    <elementInformation show="1" name="formula">3mm</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="610" orientation="3" uuid="{4b3c14d2-9975-4281-b547-7f96e8290fe4}" prefix="X" x="510">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="510" y="610" freezeLabel="true" uuid="{4b3c14d2-9975-4281-b547-7f96e8290fe4}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="57" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="57" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="Nappe" x="-5.5" usery="5.88891"/>
+                    <input text="Nappe" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">Nappe</elementInformation>
-                    <elementInformation name="label" show="1">Nappe</elementInformation>
+                    <elementInformation show="1" name="label">Nappe</elementInformation>
+                    <elementInformation show="1" name="formula">Nappe</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="610" orientation="1" uuid="{ce2d0bac-efab-495a-87c3-c967825bcccb}" prefix="X" x="480">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="480" y="610" freezeLabel="true" uuid="{ce2d0bac-efab-495a-87c3-c967825bcccb}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="58" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="58" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="270" userx="0" text="Nappe" x="-5.5" usery="50"/>
+                    <input text="Nappe" x="-5.5" y="21" userrotation="270" userx="0" usery="50"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">Nappe</elementInformation>
-                    <elementInformation name="label" show="1">Nappe</elementInformation>
+                    <elementInformation show="1" name="label">Nappe</elementInformation>
+                    <elementInformation show="1" name="formula">Nappe</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="590" orientation="3" uuid="{3a34acbb-94db-4c2b-86be-c7c01198040f}" prefix="X" x="900">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="900" y="590" freezeLabel="true" uuid="{3a34acbb-94db-4c2b-86be-c7c01198040f}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="59" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="59" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="1" x="-5.5" usery="5.88891"/>
+                    <input text="1" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">1</elementInformation>
+                    <elementInformation show="1" name="label">1</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="590" orientation="1" uuid="{d384fd31-30e8-41b9-9d9b-6d5eaef60e3c}" prefix="X" x="610">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="610" y="590" freezeLabel="true" uuid="{d384fd31-30e8-41b9-9d9b-6d5eaef60e3c}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="60" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="60" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="270" userx="0" text="K1" x="-5.5" usery="30"/>
+                    <input text="K1" x="-5.5" y="21" userrotation="270" userx="0" usery="30"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">K1</elementInformation>
-                    <elementInformation name="label" show="1">K1</elementInformation>
+                    <elementInformation show="1" name="label">K1</elementInformation>
+                    <elementInformation show="1" name="formula">K1</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="590" orientation="3" uuid="{998fa16b-8081-4b4f-9596-abe77b77b217}" prefix="X" x="650">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="650" y="590" freezeLabel="true" uuid="{998fa16b-8081-4b4f-9596-abe77b77b217}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="61" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="61" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="" x="-5.5" usery="5.88891"/>
+                    <input text="" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" freezeLabel="true" y="590" orientation="3" uuid="{0be58ec6-ce6b-45ea-a4bb-1d70ea3c0712}" prefix="X" x="290">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" x="290" y="590" freezeLabel="true" uuid="{0be58ec6-ce6b-45ea-a4bb-1d70ea3c0712}">
                 <terminals>
-                    <terminal y="-7" orientation="0" number="_" name="_" id="62" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="62" x="0" y="-7" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="-7.5" userrotation="90" userx="10" text="PixLedF" x="4" usery="-40"/>
+                    <input text="PixLedF" x="4" y="-7.5" userrotation="90" userx="10" usery="-40"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">PixLedF</elementInformation>
+                    <elementInformation show="1" name="label">PixLedF</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" freezeLabel="true" y="590" orientation="1" uuid="{f2ebcf1e-dfa3-4e1b-a781-a5ae7df47634}" prefix="X" x="820">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" x="820" y="590" freezeLabel="true" uuid="{f2ebcf1e-dfa3-4e1b-a781-a5ae7df47634}">
                 <terminals>
-                    <terminal y="-7" orientation="0" number="_" name="_" id="63" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="63" x="0" y="-7" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="-7.5" userrotation="270" userx="-10" text="" x="4" usery="30"/>
+                    <input text="" x="4" y="-7.5" userrotation="270" userx="-10" usery="30"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" freezeLabel="true" y="610" orientation="1" uuid="{ebe798b3-fd55-49eb-9f74-a275bba79d9d}" prefix="X" x="300">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_f.elmt" x="300" y="610" freezeLabel="true" uuid="{ebe798b3-fd55-49eb-9f74-a275bba79d9d}">
                 <terminals>
-                    <terminal y="-7" orientation="0" number="_" name="_" id="64" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="64" x="0" y="-7" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="-7.5" userrotation="270" userx="10" text="PixLedF" x="4" usery="0"/>
+                    <input text="PixLedF" x="4" y="-7.5" userrotation="270" userx="10" usery="0"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">PixLedF</elementInformation>
+                    <elementInformation show="1" name="label">PixLedF</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" freezeLabel="true" y="610" orientation="1" uuid="{39b90f7d-6445-415f-8984-58913ac0c447}" prefix="X" x="280">
+            <element prefix="X" orientation="1" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/01_connectors_pins/connecteur_m.elmt" x="280" y="610" freezeLabel="true" uuid="{39b90f7d-6445-415f-8984-58913ac0c447}">
                 <terminals>
-                    <terminal y="6" orientation="2" number="_" name="_" id="65" x="0" nameHidden="0"/>
+                    <terminal orientation="2" id="65" x="0" y="6" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="1.5" userrotation="270" userx="10" text="PixLedM" x="5" usery="40"/>
+                    <input text="PixLedM" x="5" y="1.5" userrotation="270" userx="10" usery="40"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="label" show="1">PixLedM</elementInformation>
+                    <elementInformation show="1" name="label">PixLedM</elementInformation>
                 </elementInformations>
             </element>
-            <element type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" freezeLabel="true" y="610" orientation="3" uuid="{d32f53f0-4b6f-4603-af8a-fafd0c02f987}" prefix="X" x="380">
+            <element prefix="X" orientation="3" type="embed://import/10_electric/10_allpole/140_connectors&amp;plugs/60_connectors_electronics/pin_connector_1.elmt" x="380" y="610" freezeLabel="true" uuid="{d32f53f0-4b6f-4603-af8a-fafd0c02f987}">
                 <terminals>
-                    <terminal y="-2" orientation="0" number="_" name="_" id="66" x="0" nameHidden="0"/>
+                    <terminal orientation="0" id="66" x="0" y="-2" number="_" name="_" nameHidden="0"/>
                 </terminals>
                 <inputs>
-                    <input y="21" userrotation="90" userx="0" text="RJ11" x="-5.5" usery="5.88891"/>
+                    <input text="RJ11" x="-5.5" y="21" userrotation="90" userx="0" usery="5.88891"/>
                 </inputs>
                 <elementInformations>
-                    <elementInformation name="formula" show="1">RJ11</elementInformation>
-                    <elementInformation name="label" show="1">RJ11</elementInformation>
+                    <elementInformation show="1" name="label">RJ11</elementInformation>
+                    <elementInformation show="1" name="formula">RJ11</elementInformation>
                 </elementInformations>
             </element>
         </elements>
         <conductors>
-            <conductor y="-40" terminal1="6" freezeLabel="false" type="multi" terminal2="7" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="-40" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="6" terminal2="7" onetextperfolio="0" x="-40" type="multi" y="-40" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="-40" terminal1="3" freezeLabel="false" type="multi" terminal2="0" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="0" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="3" terminal2="0" onetextperfolio="0" x="0" type="multi" y="-40" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <segment orientation="horizontal" length="9"/>
                 <segment orientation="horizontal" length="55"/>
                 <segment orientation="horizontal" length="0"/>
@@ -801,13 +801,13 @@
                 <segment orientation="horizontal" length="-9"/>
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="-40" terminal1="1" freezeLabel="false" type="multi" terminal2="4" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="0" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="1" terminal2="4" onetextperfolio="0" x="0" type="multi" y="-40" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="0" terminal1="9" freezeLabel="false" type="multi" terminal2="10" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="0" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="9" terminal2="10" onetextperfolio="0" x="0" type="multi" y="0" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor numsize="9" x="0" y="0" num="4 fils" type="multi" displaytext="1" function="" tension-protocol="" userx="550" usery="200" terminal1="8" freezeLabel="false" terminal2="21" formula="" vertirotatetext="270" onetextperfolio="0" condsize="2" horizrotatetext="0">
+            <conductor horizrotatetext="0" userx="550" onetextperfolio="0" function="" vertirotatetext="270" usery="200" displaytext="1" numsize="9" num="4 fils" tension-protocol="" x="0" freezeLabel="false" y="0" condsize="2" type="multi" formula="" terminal1="8" terminal2="21">
                 <segment orientation="horizontal" length="14"/>
                 <segment orientation="horizontal" length="76"/>
                 <segment orientation="vertical" length="140"/>
@@ -816,25 +816,25 @@
                 <segment orientation="horizontal" length="14"/>
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="-90" terminal1="19" freezeLabel="false" type="multi" terminal2="18" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="110" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="19" terminal2="18" onetextperfolio="0" x="110" type="multi" y="-90" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="250" terminal1="16" freezeLabel="false" type="multi" terminal2="15" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="-340" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="16" terminal2="15" onetextperfolio="0" x="-340" type="multi" y="250" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="250" terminal1="12" freezeLabel="false" type="multi" terminal2="13" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="-340" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="12" terminal2="13" onetextperfolio="0" x="-340" type="multi" y="250" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="-70" terminal1="11" freezeLabel="false" type="multi" terminal2="14" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="110" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="11" terminal2="14" onetextperfolio="0" x="110" type="multi" y="-70" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="-110" terminal1="17" freezeLabel="false" type="multi" terminal2="20" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="110" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="17" terminal2="20" onetextperfolio="0" x="110" type="multi" y="-110" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="0" terminal1="32" freezeLabel="false" type="multi" terminal2="23" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="0" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="32" terminal2="23" onetextperfolio="0" x="0" type="multi" y="0" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="0" terminal1="39" freezeLabel="false" type="multi" terminal2="50" num="" formula="" vertirotatetext="270" numsize="7" condsize="2" onetextperfolio="0" function="" horizrotatetext="0" x="0" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="39" terminal2="50" onetextperfolio="0" x="0" type="multi" y="0" horizrotatetext="0" condsize="2" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <segment orientation="horizontal" length="-9"/>
                 <segment orientation="horizontal" length="-71"/>
                 <segment orientation="vertical" length="80"/>
@@ -842,43 +842,43 @@
                 <segment orientation="horizontal" length="9"/>
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="10" terminal1="34" freezeLabel="false" type="multi" terminal2="30" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="110" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="34" terminal2="30" onetextperfolio="0" x="110" type="multi" y="10" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="350" terminal1="29" freezeLabel="false" type="multi" terminal2="33" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="-340" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="29" terminal2="33" onetextperfolio="0" x="-340" type="multi" y="350" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="350" terminal1="28" freezeLabel="false" type="multi" terminal2="27" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="-340" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="28" terminal2="27" onetextperfolio="0" x="-340" type="multi" y="350" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="30" terminal1="22" freezeLabel="false" type="multi" terminal2="31" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="110" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="22" terminal2="31" onetextperfolio="0" x="110" type="multi" y="30" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="-10" terminal1="37" freezeLabel="false" type="multi" terminal2="35" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="110" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="37" terminal2="35" onetextperfolio="0" x="110" type="multi" y="-10" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="100" terminal1="40" freezeLabel="false" type="multi" terminal2="38" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="0" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="40" terminal2="38" onetextperfolio="0" x="0" type="multi" y="100" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="110" terminal1="48" freezeLabel="false" type="multi" terminal2="47" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="110" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="48" terminal2="47" onetextperfolio="0" x="110" type="multi" y="110" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="450" terminal1="45" freezeLabel="false" type="multi" terminal2="44" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="-340" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="45" terminal2="44" onetextperfolio="0" x="-340" type="multi" y="450" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="450" terminal1="41" freezeLabel="false" type="multi" terminal2="42" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="-340" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="41" terminal2="42" onetextperfolio="0" x="-340" type="multi" y="450" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="130" terminal1="26" freezeLabel="false" type="multi" terminal2="43" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="110" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="26" terminal2="43" onetextperfolio="0" x="110" type="multi" y="130" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="90" terminal1="46" freezeLabel="false" type="multi" terminal2="49" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="110" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="46" terminal2="49" onetextperfolio="0" x="110" type="multi" y="90" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="200" terminal1="53" freezeLabel="false" type="multi" terminal2="51" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="0" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="53" terminal2="51" onetextperfolio="0" x="0" type="multi" y="200" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="0" terminal1="52" freezeLabel="false" type="multi" terminal2="62" num="" formula="" vertirotatetext="270" numsize="7" condsize="2" onetextperfolio="0" function="" horizrotatetext="0" x="0" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="52" terminal2="62" onetextperfolio="0" x="0" type="multi" y="0" horizrotatetext="0" condsize="2" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <segment orientation="horizontal" length="-9"/>
                 <segment orientation="horizontal" length="-71"/>
                 <segment orientation="vertical" length="80"/>
@@ -886,7 +886,7 @@
                 <segment orientation="horizontal" length="9"/>
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="0" terminal1="25" freezeLabel="false" type="multi" terminal2="36" num="" formula="" vertirotatetext="270" numsize="7" condsize="2" onetextperfolio="0" function="" horizrotatetext="0" x="0" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="25" terminal2="36" onetextperfolio="0" x="0" type="multi" y="0" horizrotatetext="0" condsize="2" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <segment orientation="horizontal" length="-9"/>
                 <segment orientation="horizontal" length="-71"/>
                 <segment orientation="vertical" length="80"/>
@@ -894,142 +894,142 @@
                 <segment orientation="horizontal" length="9"/>
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="210" terminal1="61" freezeLabel="false" type="multi" terminal2="60" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="110" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="61" terminal2="60" onetextperfolio="0" x="110" type="multi" y="210" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="550" terminal1="58" freezeLabel="false" type="multi" terminal2="57" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="-340" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="58" terminal2="57" onetextperfolio="0" x="-340" type="multi" y="550" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="550" terminal1="54" freezeLabel="false" type="multi" terminal2="55" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="-340" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="54" terminal2="55" onetextperfolio="0" x="-340" type="multi" y="550" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="230" terminal1="24" freezeLabel="false" type="multi" terminal2="56" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="110" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="24" terminal2="56" onetextperfolio="0" x="110" type="multi" y="230" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="190" terminal1="59" freezeLabel="false" type="multi" terminal2="63" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="110" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="59" terminal2="63" onetextperfolio="0" x="110" type="multi" y="190" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
-            <conductor y="300" terminal1="66" freezeLabel="false" type="multi" terminal2="64" num="" formula="" vertirotatetext="270" numsize="7" condsize="1" onetextperfolio="0" function="" horizrotatetext="0" x="0" tension-protocol="" displaytext="0">
+            <conductor num="" numsize="7" terminal1="66" terminal2="64" onetextperfolio="0" x="0" type="multi" y="300" horizrotatetext="0" condsize="1" function="" displaytext="0" freezeLabel="false" tension-protocol="" vertirotatetext="270" formula="">
                 <sequentialNumbers/>
             </conductor>
         </conductors>
         <inputs>
-            <input y="70" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Pied Fraise&lt;/p>&lt;/body>&lt;/html>" x="200"/>
-            <input y="70" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Fraiseiver&lt;/p>&lt;/body>&lt;/html>" x="330"/>
-            <input y="150" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Alim&lt;/p>&lt;/body>&lt;/html>" x="240"/>
-            <input y="60" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Ordi&lt;/p>&lt;/body>&lt;/html>" x="90"/>
-            <input y="280" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:8pt;&quot;>Cap.press&lt;/span>&lt;/p>&lt;/body>&lt;/html>" x="660"/>
-            <input y="270" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Fraiseiver&lt;/p>&lt;/body>&lt;/html>" x="370"/>
-            <input y="260" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Versa&lt;/p>&lt;/body>&lt;/html>" x="520"/>
-            <input y="380" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:8pt;&quot;>Cap.press&lt;/span>&lt;/p>&lt;/body>&lt;/html>" x="660"/>
-            <input y="370" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Fraiseiver&lt;/p>&lt;/body>&lt;/html>" x="370"/>
-            <input y="360" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Versa&lt;/p>&lt;/body>&lt;/html>" x="520"/>
-            <input y="480" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:8pt;&quot;>Cap.press&lt;/span>&lt;/p>&lt;/body>&lt;/html>" x="660"/>
-            <input y="470" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Fraiseiver&lt;/p>&lt;/body>&lt;/html>" x="370"/>
-            <input y="460" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Versa&lt;/p>&lt;/body>&lt;/html>" x="520"/>
-            <input y="580" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:8pt;&quot;>Cap.press&lt;/span>&lt;/p>&lt;/body>&lt;/html>" x="660"/>
-            <input y="570" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Fraiseiver&lt;/p>&lt;/body>&lt;/html>" x="370"/>
-            <input y="560" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Versa&lt;/p>&lt;/body>&lt;/html>" x="520"/>
+            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Pied Fraise&lt;/p>&lt;/body>&lt;/html>" x="200" y="70"/>
+            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Fraiseiver&lt;/p>&lt;/body>&lt;/html>" x="330" y="70"/>
+            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Alim&lt;/p>&lt;/body>&lt;/html>" x="240" y="150"/>
+            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Ordi&lt;/p>&lt;/body>&lt;/html>" x="90" y="60"/>
+            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:8pt;&quot;>Cap.press&lt;/span>&lt;/p>&lt;/body>&lt;/html>" x="660" y="280"/>
+            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Fraiseiver&lt;/p>&lt;/body>&lt;/html>" x="370" y="270"/>
+            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Versa&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>trampo1&lt;/p>&lt;/body>&lt;/html>" x="520" y="260"/>
+            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:8pt;&quot;>Cap.press&lt;/span>&lt;/p>&lt;/body>&lt;/html>" x="660" y="380"/>
+            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Fraiseiver&lt;/p>&lt;/body>&lt;/html>" x="370" y="370"/>
+            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Versa&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>trampo2&lt;/p>&lt;/body>&lt;/html>" x="520" y="360"/>
+            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:8pt;&quot;>Cap.press&lt;/span>&lt;/p>&lt;/body>&lt;/html>" x="660" y="480"/>
+            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Fraiseiver&lt;/p>&lt;/body>&lt;/html>" x="370" y="470"/>
+            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Versa&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>trampo3&lt;/p>&lt;/body>&lt;/html>" x="520" y="460"/>
+            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:8pt;&quot;>Cap.press&lt;/span>&lt;/p>&lt;/body>&lt;/html>" x="660" y="580"/>
+            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Fraiseiver&lt;/p>&lt;/body>&lt;/html>" x="370" y="570"/>
+            <input text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Versa&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>trampo4&lt;/p>&lt;/body>&lt;/html>" x="520" y="560"/>
         </inputs>
         <shapes>
-            <shape type="Rectangle" is_movable="1" y2="190" x1="190" x2="310" closed="0" y1="150">
-                <pen widthF="1" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="150" y2="190" x1="190" x2="310" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="130" x1="190" x2="310" closed="0" y1="70">
-                <pen widthF="1" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="70" y2="130" x1="190" x2="310" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="130" x1="330" x2="450" closed="0" y1="70">
-                <pen widthF="1" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="70" y2="130" x1="330" x2="450" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="140" x1="60" x2="160" closed="0" y1="60">
-                <pen widthF="1" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="60" y2="140" x1="60" x2="160" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="200" x1="50" x2="500" closed="0" y1="40">
-                <pen widthF="2" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="40" y2="200" x1="50" x2="500" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="2"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="330" x1="790" x2="360" closed="0" y1="250">
-                <pen widthF="2" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="250" y2="330" x1="790" x2="360" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="2"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="300" x1="640" x2="780" closed="0" y1="280">
-                <pen widthF="1" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="280" y2="300" x1="640" x2="780" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="320" x1="500" x2="620" closed="0" y1="260">
-                <pen widthF="1" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="260" y2="320" x1="500" x2="620" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="320" x1="370" x2="490" closed="0" y1="270">
-                <pen widthF="1" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="270" y2="320" x1="370" x2="490" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="320" x1="870" x2="930" closed="0" y1="260">
-                <pen widthF="1" style="DashLine" color="#00aa00"/>
+            <shape type="Rectangle" y1="260" y2="320" x1="870" x2="930" is_movable="1" closed="0">
+                <pen style="DashLine" color="#00aa00" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="420" x1="500" x2="620" closed="0" y1="360">
-                <pen widthF="1" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="360" y2="420" x1="500" x2="620" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="430" x1="790" x2="360" closed="0" y1="350">
-                <pen widthF="2" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="350" y2="430" x1="790" x2="360" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="2"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="420" x1="870" x2="930" closed="0" y1="360">
-                <pen widthF="1" style="DashLine" color="#00aa00"/>
+            <shape type="Rectangle" y1="360" y2="420" x1="870" x2="930" is_movable="1" closed="0">
+                <pen style="DashLine" color="#00aa00" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="400" x1="640" x2="780" closed="0" y1="380">
-                <pen widthF="1" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="380" y2="400" x1="640" x2="780" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="420" x1="370" x2="490" closed="0" y1="370">
-                <pen widthF="1" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="370" y2="420" x1="370" x2="490" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="500" x1="640" x2="780" closed="0" y1="480">
-                <pen widthF="1" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="480" y2="500" x1="640" x2="780" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="520" x1="500" x2="620" closed="0" y1="460">
-                <pen widthF="1" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="460" y2="520" x1="500" x2="620" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="520" x1="370" x2="490" closed="0" y1="470">
-                <pen widthF="1" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="470" y2="520" x1="370" x2="490" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="530" x1="790" x2="360" closed="0" y1="450">
-                <pen widthF="2" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="450" y2="530" x1="790" x2="360" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="2"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="520" x1="870" x2="930" closed="0" y1="460">
-                <pen widthF="1" style="DashLine" color="#00aa00"/>
+            <shape type="Rectangle" y1="460" y2="520" x1="870" x2="930" is_movable="1" closed="0">
+                <pen style="DashLine" color="#00aa00" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="600" x1="640" x2="780" closed="0" y1="580">
-                <pen widthF="1" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="580" y2="600" x1="640" x2="780" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="620" x1="500" x2="620" closed="0" y1="560">
-                <pen widthF="1" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="560" y2="620" x1="500" x2="620" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="620" x1="870" x2="930" closed="0" y1="560">
-                <pen widthF="1" style="DashLine" color="#00aa00"/>
+            <shape type="Rectangle" y1="560" y2="620" x1="870" x2="930" is_movable="1" closed="0">
+                <pen style="DashLine" color="#00aa00" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="620" x1="370" x2="490" closed="0" y1="570">
-                <pen widthF="1" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="570" y2="620" x1="370" x2="490" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="1"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
-            <shape type="Rectangle" is_movable="1" y2="630" x1="790" x2="360" closed="0" y1="550">
-                <pen widthF="2" style="DashLine" color="#000000"/>
+            <shape type="Rectangle" y1="550" y2="630" x1="790" x2="360" is_movable="1" closed="0">
+                <pen style="DashLine" color="#000000" widthF="2"/>
                 <brush style="NoBrush" color="#000000"/>
             </shape>
         </shapes>
@@ -1100,7 +1100,7 @@
                                 <name lang="nl">Electronische verbindingen</name>
                             </names>
                             <element name="pin_connector_2.elmt">
-                                <definition type="element" orientation="dyyy" width="30" height="20" version="0.5" link_type="simple" hotspot_x="10" hotspot_y="11">
+                                <definition orientation="dyyy" link_type="simple" hotspot_x="10" version="0.5" hotspot_y="11" type="element" width="30" height="20">
                                     <uuid uuid="{b6a7fd5d-b063-400c-b314-cef1e6448609}"/>
                                     <names>
                                         <name lang="nl">Connector 2 pin</name>
@@ -1116,20 +1116,20 @@
                                     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                     <description>
-                                        <input tagg="label" y="21" size="9" rotate="true" text="_" x="-5.5"/>
-                                        <line y2="5" end1="simple" x1="-5" end2="simple" x2="5" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-5"/>
-                                        <line y2="-5" end1="simple" x1="-5" end2="simple" x2="5" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="5"/>
-                                        <rect y="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" height="10" antialias="false" x="-5"/>
-                                        <line y2="5" end1="simple" x1="5" end2="simple" x2="15" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-5"/>
-                                        <line y2="-5" end1="simple" x1="5" end2="simple" x2="15" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="5"/>
-                                        <rect y="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" height="10" antialias="false" x="5"/>
-                                        <terminal y="-6" orientation="n" x="10"/>
-                                        <terminal y="-6" orientation="n" x="0"/>
+                                        <input text="_" tagg="label" x="-5.5" y="21" rotate="true" size="9"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" y2="5" end1="simple" end2="simple" x1="-5" x2="5" length1="1.5"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" y2="-5" end1="simple" end2="simple" x1="-5" x2="5" length1="1.5"/>
+                                        <rect antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-5" y="-5" width="10" height="10"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" y2="5" end1="simple" end2="simple" x1="5" x2="15" length1="1.5"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" y2="-5" end1="simple" end2="simple" x1="5" x2="15" length1="1.5"/>
+                                        <rect antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="5" y="-5" width="10" height="10"/>
+                                        <terminal orientation="n" x="10" y="-6"/>
+                                        <terminal orientation="n" x="0" y="-6"/>
                                     </description>
                                 </definition>
                             </element>
                             <element name="pin_connector_1.elmt">
-                                <definition type="element" orientation="dyyy" width="20" height="20" version="0.5" link_type="simple" hotspot_x="10" hotspot_y="11">
+                                <definition orientation="dyyy" link_type="simple" hotspot_x="10" version="0.5" hotspot_y="11" type="element" width="20" height="20">
                                     <uuid uuid="{632255c0-4acd-4220-8bdd-3f99e339ab4d}"/>
                                     <names>
                                         <name lang="nl">Connector 1 pin</name>
@@ -1145,11 +1145,11 @@ License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                     <description>
-                                        <input tagg="label" y="21" size="9" rotate="true" text="_" x="-5.5"/>
-                                        <line y2="5" end1="simple" x1="-5" end2="simple" x2="5" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-5"/>
-                                        <line y2="-5" end1="simple" x1="-5" end2="simple" x2="5" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="5"/>
-                                        <rect y="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" height="10" antialias="false" x="-5"/>
-                                        <terminal y="-6" orientation="n" x="0"/>
+                                        <input text="_" tagg="label" x="-5.5" y="21" rotate="true" size="9"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" y2="5" end1="simple" end2="simple" x1="-5" x2="5" length1="1.5"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" y2="-5" end1="simple" end2="simple" x1="-5" x2="5" length1="1.5"/>
+                                        <rect antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-5" y="-5" width="10" height="10"/>
+                                        <terminal orientation="n" x="0" y="-6"/>
                                     </description>
                                 </definition>
                             </element>
@@ -1166,7 +1166,7 @@ License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                 <name lang="pl">Złącza wtykowe</name>
                             </names>
                             <element name="connecteur_f.elmt">
-                                <definition type="element" orientation="dyyy" width="10" height="30" version="0.5" link_type="simple" hotspot_x="5" hotspot_y="18">
+                                <definition orientation="dyyy" link_type="simple" hotspot_x="5" version="0.5" hotspot_y="18" type="element" width="10" height="30">
                                     <uuid uuid="{315322F0-8C5C-48CA-8825-1B90F4053902}"/>
                                     <names>
                                         <name lang="en">Female connector</name>
@@ -1185,16 +1185,16 @@ License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                     <description>
-                                        <input tagg="label" y="-7.5" size="8" rotate="true" text="_" x="4"/>
-                                        <line y2="-1" end1="none" x1="0" end2="none" x2="0" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-10"/>
-                                        <arc y="0" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" width="6" height="6" angle="-84" antialias="true" x="-3"/>
-                                        <arc y="0" style="line-style:normal;line-weight:normal;filling:none;color:black" start="83" width="6" height="6" angle="-84" antialias="true" x="-3"/>
-                                        <terminal y="-11" orientation="n" x="0"/>
+                                        <input text="_" tagg="label" x="4" y="-7.5" rotate="true" size="8"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" y2="-1" end1="none" end2="none" x1="0" x2="0" length1="1.5"/>
+                                        <arc antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-3" y="0" start="-180" width="6" angle="-84" height="6"/>
+                                        <arc antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-3" y="0" start="83" width="6" angle="-84" height="6"/>
+                                        <terminal orientation="n" x="0" y="-11"/>
                                     </description>
                                 </definition>
                             </element>
                             <element name="connecteur_m.elmt">
-                                <definition type="element" orientation="dyyy" width="10" height="30" version="0.5" link_type="simple" hotspot_x="4" hotspot_y="13">
+                                <definition orientation="dyyy" link_type="simple" hotspot_x="4" version="0.5" hotspot_y="13" type="element" width="10" height="30">
                                     <uuid uuid="{9016050F-26E2-4F2B-8EED-9BDBCF8BE98E}"/>
                                     <names>
                                         <name lang="en">Male connector</name>
@@ -1213,11 +1213,11 @@ License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                     <description>
-                                        <line y2="-1" end1="none" x1="-1" end2="none" x2="-1" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-8"/>
-                                        <line y2="-1" end1="none" x1="1" end2="none" x2="1" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-8"/>
-                                        <line y2="10" end1="none" x1="0" end2="none" x2="0" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-8"/>
-                                        <input tagg="label" y="1.5" size="8" rotate="true" text="_" x="5"/>
-                                        <terminal y="10" orientation="s" x="0"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8" y2="-1" end1="none" end2="none" x1="-1" x2="-1" length1="1.5"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8" y2="-1" end1="none" end2="none" x1="1" x2="1" length1="1.5"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8" y2="10" end1="none" end2="none" x1="0" x2="0" length1="1.5"/>
+                                        <input text="_" tagg="label" x="5" y="1.5" rotate="true" size="8"/>
+                                        <terminal orientation="s" x="0" y="10"/>
                                     </description>
                                 </definition>
                             </element>
@@ -1247,7 +1247,7 @@ License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                 <name lang="ru">Оптическая сигнализация</name>
                             </names>
                             <element name="lampe2.elmt">
-                                <definition type="element" orientation="dyyy" width="30" height="60" version="0.5" link_type="simple" hotspot_x="15" hotspot_y="29">
+                                <definition orientation="dyyy" link_type="simple" hotspot_x="15" version="0.5" hotspot_y="29" type="element" width="30" height="60">
                                     <uuid uuid="{c8f5ab5f-4534-4307-90b4-c6601cc77abb}"/>
                                     <names>
                                         <name lang="fr">Lampe</name>
@@ -1266,14 +1266,14 @@ License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                     <description>
-                                        <circle y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20" antialias="true" x="-10"/>
-                                        <line y2="7.03" end1="none" x1="7.03" end2="none" x2="-7.03" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-7.03"/>
-                                        <line y2="7.03" end1="none" x1="-7.03" end2="none" x2="7.03" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-7.03"/>
-                                        <line y2="-10" end1="none" x1="0" end2="none" x2="0" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-20"/>
-                                        <line y2="20" end1="none" x1="0" end2="none" x2="0" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="10"/>
-                                        <input tagg="label" y="3" size="9" text="H_" x="15"/>
-                                        <terminal y="-21" orientation="n" x="0"/>
-                                        <terminal y="21" orientation="s" x="0"/>
+                                        <circle antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" y="-10" diameter="20"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-7.03" y2="7.03" end1="none" end2="none" x1="7.03" x2="-7.03" length1="1.5"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-7.03" y2="7.03" end1="none" end2="none" x1="-7.03" x2="7.03" length1="1.5"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" y2="-10" end1="none" end2="none" x1="0" x2="0" length1="1.5"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" y2="20" end1="none" end2="none" x1="0" x2="0" length1="1.5"/>
+                                        <input text="H_" tagg="label" x="15" y="3" size="9"/>
+                                        <terminal orientation="n" x="0" y="-21"/>
+                                        <terminal orientation="s" x="0" y="21"/>
                                     </description>
                                 </definition>
                             </element>
@@ -1294,7 +1294,7 @@ License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                 <name lang="pt">Botões de pressão</name>
                             </names>
                             <element name="poussoir.elmt">
-                                <definition type="element" orientation="dyyy" width="20" height="60" version="0.5" link_type="master" hotspot_x="14" hotspot_y="29">
+                                <definition orientation="dyyy" link_type="master" hotspot_x="14" version="0.5" hotspot_y="29" type="element" width="20" height="60">
                                     <uuid uuid="{B7E19699-CDD6-471B-B99D-8F31818E7C9A}"/>
                                     <names>
                                         <name lang="ar">زرّ ضاغط</name>
@@ -1311,23 +1311,23 @@ License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                         <name lang="el">Μπουτόν, ανοικτή επαφή</name>
                                     </names>
                                     <kindInformations>
-                                        <kindInformation name="type" show="1">commutator</kindInformation>
+                                        <kindInformation show="1" name="type">commutator</kindInformation>
                                     </kindInformations>
                                     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                     <description>
-                                        <polygon y2="10" y3="20" x1="-5" x2="0" x3="0" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" antialias="true" y1="-10"/>
-                                        <line y2="-10" end1="none" x1="0" end2="none" x2="0" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-20"/>
-                                        <input tagg="label" y="3" size="9" text="_" x="2.75"/>
-                                        <line y2="0" end1="none" x1="-10" end2="none" x2="-3" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false" y1="0"/>
-                                        <polygon y2="-5" y3="5" y4="5" x1="-7" x2="-10" x3="-10" x4="-7" style="line-style:normal;line-weight:thin;filling:none;color:black" closed="false" antialias="false" y1="-5"/>
-                                        <terminal y="-21" orientation="n" x="0"/>
-                                        <terminal y="21" orientation="s" x="0"/>
+                                        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" y2="10" y3="20" x1="-5" x2="0" x3="0" closed="false"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" y2="-10" end1="none" end2="none" x1="0" x2="0" length1="1.5"/>
+                                        <input text="_" tagg="label" x="2.75" y="3" size="9"/>
+                                        <line length2="1.5" antialias="false" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="0" y2="0" end1="none" end2="none" x1="-10" x2="-3" length1="1.5"/>
+                                        <polygon antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="-5" y2="-5" y3="5" y4="5" x1="-7" x2="-10" x3="-10" x4="-7" closed="false"/>
+                                        <terminal orientation="n" x="0" y="-21"/>
+                                        <terminal orientation="s" x="0" y="21"/>
                                     </description>
                                 </definition>
                             </element>
                             <element name="poussoir_nf.elmt">
-                                <definition type="element" orientation="dyyy" width="20" height="60" version="0.5" link_type="master" hotspot_x="12" hotspot_y="29">
+                                <definition orientation="dyyy" link_type="master" hotspot_x="12" version="0.5" hotspot_y="29" type="element" width="20" height="60">
                                     <uuid uuid="{BC493768-9109-4014-955A-EB2E261B530B}"/>
                                     <names>
                                         <name lang="it">Pulsante (NC)</name>
@@ -1344,19 +1344,19 @@ License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                         <name lang="pt">Botão de pressão (NC)</name>
                                     </names>
                                     <kindInformations>
-                                        <kindInformation name="type" show="1">commutator</kindInformation>
+                                        <kindInformation show="1" name="type">commutator</kindInformation>
                                     </kindInformations>
                                     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                     <description>
-                                        <polygon y2="10" y3="20" x1="5" x2="0" x3="0" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" antialias="true" y1="-10"/>
-                                        <line y2="-9" end1="none" x1="0" end2="none" x2="6" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-9"/>
-                                        <line y2="-9" end1="none" x1="0" end2="none" x2="0" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-20"/>
-                                        <input tagg="label" y="3" size="9" text="_" x="5.75"/>
-                                        <line y2="0" end1="none" x1="-10" end2="none" x2="3" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false" y1="0"/>
-                                        <polygon y2="-5" y3="5" y4="5" x1="-7" x2="-10" x3="-10" x4="-7" style="line-style:normal;line-weight:thin;filling:none;color:black" closed="false" antialias="false" y1="-5"/>
-                                        <terminal y="-21" orientation="n" x="0"/>
-                                        <terminal y="21" orientation="s" x="0"/>
+                                        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" y2="10" y3="20" x1="5" x2="0" x3="0" closed="false"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-9" y2="-9" end1="none" end2="none" x1="0" x2="6" length1="1.5"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" y2="-9" end1="none" end2="none" x1="0" x2="0" length1="1.5"/>
+                                        <input text="_" tagg="label" x="5.75" y="3" size="9"/>
+                                        <line length2="1.5" antialias="false" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="0" y2="0" end1="none" end2="none" x1="-10" x2="3" length1="1.5"/>
+                                        <polygon antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="-5" y2="-5" y3="5" y4="5" x1="-7" x2="-10" x3="-10" x4="-7" closed="false"/>
+                                        <terminal orientation="n" x="0" y="-21"/>
+                                        <terminal orientation="s" x="0" y="21"/>
                                     </description>
                                 </definition>
                             </element>
@@ -1390,7 +1390,7 @@ License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                 <name lang="pt">Motor</name>
                             </names>
                             <element name="moteur_dc.elmt">
-                                <definition type="element" orientation="dyyy" width="40" height="70" version="0.4" ic="true" link_type="simple" hotspot_x="20" hotspot_y="35">
+                                <definition orientation="dyyy" link_type="simple" ic="true" hotspot_x="20" version="0.4" hotspot_y="35" type="element" width="40" height="70">
                                     <uuid uuid="{98E9FBE6-EA27-4212-A530-9A9C77E4B500}"/>
                                     <names>
                                         <name lang="ar">محرّك تيّار مستمرّ</name>
@@ -1409,19 +1409,19 @@ License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                     <description>
-                                        <circle y="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="30" antialias="true" x="-15"/>
-                                        <line y2="14.5" end1="none" x1="5" end2="none" x2="5" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="18"/>
-                                        <line y2="30" end1="none" x1="0" end2="none" x2="0" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="18"/>
-                                        <text y="7" size="15" text="M" x="-8.5"/>
-                                        <line y2="-18" end1="none" x1="0" end2="none" x2="0" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-30"/>
-                                        <line y2="18" end1="none" x1="-5" end2="none" x2="5" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="18"/>
-                                        <line y2="-14.5" end1="none" x1="5" end2="none" x2="5" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-18"/>
-                                        <line y2="-18" end1="none" x1="-5" end2="none" x2="-5" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-14.5"/>
-                                        <line y2="-18" end1="none" x1="-5" end2="none" x2="5" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-18"/>
-                                        <line y2="18" end1="none" x1="-5" end2="none" x2="-5" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="14.5"/>
-                                        <input tagg="label" y="5" size="9" text="M_" x="20"/>
-                                        <terminal y="-30" orientation="n" x="0"/>
-                                        <terminal y="30" orientation="s" x="0"/>
+                                        <circle antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15" y="-15" diameter="30"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="18" y2="14.5" end1="none" end2="none" x1="5" x2="5" length1="1.5"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="18" y2="30" end1="none" end2="none" x1="0" x2="0" length1="1.5"/>
+                                        <text text="M" x="-8.5" y="7" size="15"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-30" y2="-18" end1="none" end2="none" x1="0" x2="0" length1="1.5"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="18" y2="18" end1="none" end2="none" x1="-5" x2="5" length1="1.5"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-18" y2="-14.5" end1="none" end2="none" x1="5" x2="5" length1="1.5"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-14.5" y2="-18" end1="none" end2="none" x1="-5" x2="-5" length1="1.5"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-18" y2="-18" end1="none" end2="none" x1="-5" x2="5" length1="1.5"/>
+                                        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="14.5" y2="18" end1="none" end2="none" x1="-5" x2="-5" length1="1.5"/>
+                                        <input text="M_" tagg="label" x="20" y="5" size="9"/>
+                                        <terminal orientation="n" x="0" y="-30"/>
+                                        <terminal orientation="s" x="0" y="30"/>
                                     </description>
                                 </definition>
                             </element>
@@ -1472,7 +1472,7 @@ License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                 <name lang="fr">Architecture</name>
                             </names>
                             <element name="interrupteur_fin_de_course.elmt">
-                                <definition type="element" orientation="dyyy" width="20" height="30" version="0.5" link_type="simple" hotspot_x="7" hotspot_y="16">
+                                <definition orientation="dyyy" link_type="simple" hotspot_x="7" version="0.5" hotspot_y="16" type="element" width="20" height="30">
                                     <uuid uuid="{0c564c48-bd72-4d4a-965c-ed9086012af8}"/>
                                     <names>
                                         <name lang="fr">Interrupteur fin de course</name>
@@ -1488,11 +1488,11 @@ License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                                     <description>
-                                        <line y2="-9" end1="none" x1="2" end2="none" x2="8" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y1="0"/>
-                                        <input tagg="label" y="1.55" size="9" rotate="true" text="_" x="5"/>
-                                        <circle y="-12.75" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="3.5" antialias="true" x="7.75"/>
-                                        <circle y="0" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="10" antialias="true" x="-5"/>
-                                        <terminal y="0" orientation="n" x="0"/>
+                                        <line length2="1.5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" y2="-9" end1="none" end2="none" x1="2" x2="8" length1="1.5"/>
+                                        <input text="_" tagg="label" x="5" y="1.55" rotate="true" size="9"/>
+                                        <circle antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="7.75" y="-12.75" diameter="3.5"/>
+                                        <circle antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-5" y="0" diameter="10"/>
+                                        <terminal orientation="n" x="0" y="0"/>
                                     </description>
                                 </definition>
                             </element>
@@ -1501,21 +1501,21 @@ License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
                 </category>
             </category>
             <element name="servo.elmt">
-                <definition type="element" orientation="dyyy" width="70" height="50" version="0.5" link_type="simple" hotspot_x="32" hotspot_y="16">
+                <definition orientation="dyyy" link_type="simple" hotspot_x="32" version="0.5" hotspot_y="16" type="element" width="70" height="50">
                     <uuid uuid="{50d6cc4f-0f3e-44c2-9c88-0852048fb09a}"/>
                     <names>
                         <name lang="fr">Servo-moteur</name>
                     </names>
                     <informations/>
                     <description>
-                        <text y="24" rotation="270" size="9" text="+5V" x="6.1"/>
-                        <rect y="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="65" height="35" antialias="false" x="-30"/>
-                        <text y="18" rotation="270" size="9" text="sig" x="28"/>
-                        <text y="24" rotation="270" size="9" text="Gnd" x="-16"/>
-                        <input tagg="label" y="43" size="9" rotate="true" text="_" x="-29"/>
-                        <terminal y="-10" orientation="n" x="25"/>
-                        <terminal y="-10" orientation="n" x="-20"/>
-                        <terminal y="-10" orientation="n" x="5"/>
+                        <text text="+5V" x="6.1" y="24" size="9" rotation="270"/>
+                        <rect antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-30" y="-5" width="65" height="35"/>
+                        <text text="sig" x="28" y="18" size="9" rotation="270"/>
+                        <text text="Gnd" x="-16" y="24" size="9" rotation="270"/>
+                        <input text="_" tagg="label" x="-29" y="43" rotate="true" size="9"/>
+                        <terminal orientation="n" x="25" y="-10"/>
+                        <terminal orientation="n" x="-20" y="-10"/>
+                        <terminal orientation="n" x="5" y="-10"/>
                     </description>
                 </definition>
             </element>
