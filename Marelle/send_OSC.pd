@@ -1,0 +1,28 @@
+#N canvas 898 237 630 431 10;
+#X obj 38 346 netsend -b -u;
+#X obj 38 245 list prepend send;
+#X obj 38 269 list trim;
+#X obj 194 254 loadbang;
+#X obj 38 370 tgl 15 0 empty empty connected 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X msg 193 314 disconnect;
+#X msg 194 278 connect localhost 8000;
+#X obj 38 174 change;
+#X obj 38 197 oscformat /btn1;
+#X obj 23 30 r marelle1-B1-snd;
+#X obj 60 49 r marelle1-B2-snd;
+#X obj 98 69 r marelle1-B3-snd;
+#X obj 206 24 r marelle1-B4-snd;
+#X obj 238 42 r marelle1-B5-snd;
+#X obj 266 63 r marelle1-B6-snd;
+#X obj 397 24 r marelle1-B7-snd;
+#X obj 434 43 r marelle1-B8-snd;
+#X obj 466 61 r marelle1-B9-snd;
+#X connect 0 0 4 0;
+#X connect 1 0 2 0;
+#X connect 2 0 0 0;
+#X connect 3 0 6 0;
+#X connect 5 0 0 0;
+#X connect 6 0 0 0;
+#X connect 7 0 8 0;
+#X connect 8 0 1 0;
