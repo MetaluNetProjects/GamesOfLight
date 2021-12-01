@@ -1,10 +1,10 @@
-#N canvas 1366 119 591 700 10;
-#X declare -stdpath moonlib;
-#X floatatom 115 169 5 0 0 0 - - -, f 5;
+#N canvas 1328 120 591 700 10;
+#X declare -path moonlib;
+#X floatatom 115 169 5 0 0 0 - - -;
 #X obj 267 294 ndmetro 4 4;
 #X obj 48 360 s \$0-notemod-tab;
 #X msg 48 334 0 0 7 12 7;
-#X floatatom 197 359 5 0 0 0 - - -, f 5;
+#X floatatom 197 359 5 0 0 0 - - -;
 #X obj 207 214 t a a;
 #X obj 207 238 route -1;
 #X msg 207 261 0;
@@ -39,7 +39,7 @@
 #X obj 149 154 s \$2-notemod-changed;
 #X msg 160 15 16 4 0 4 2 5 4 7 5 9 7 10 9 12 10 14 12 16;
 #X obj 23 467 aptab \$2-SETTING notemod-\$3 \$2-notemod-\$3 64;
-#X obj 401 294 declare -stdpath moonlib;
+#X obj 401 294 declare -path moonlib;
 #X connect 1 0 23 0;
 #X connect 3 0 2 0;
 #X connect 5 0 6 0;
