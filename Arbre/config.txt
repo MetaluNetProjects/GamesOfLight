@@ -1,0 +1,8 @@
+mic3_gain 1.01887 0;
+mic2_gain 1.00629 0;
+mic1_gain 1.01887 0;
+mix-Master 0.532663 0;
+mix-Basse 0.522613 0;
+mix-Accord 0.231156 0;
+mix-SynthMono 0.542714 0;
+mix-Nappe 0.175879 0;
