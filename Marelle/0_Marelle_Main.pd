@@ -3,13 +3,13 @@
 #X obj 16 58 pied/pied 0 41424;
 #X obj 179 12 declare -path Fraise -stdpath Fraise;
 #X obj 437 56 send_OSC;
-#X obj 16 10 cnv 15 150 40 empty empty Trampo 10 20 2 30 #e0e0e0 #404040
+#X obj 16 10 cnv 15 150 40 empty empty Marelle 10 20 2 30 -233017 -66577
 0;
 #X obj 16 136 fruit/fruit 1 marelle1 11 marelle_fw;
 #X obj 257 240 bng 60 250 50 0 marelle-setzero empty ZERO 8 30 0 18
-#ff0400 #000000 #faff00;
+-258113 -1 -257985;
 #X obj 332 240 hsl 150 60 10 100 0 0 marelle_threshold-snd marelle_threshold-rcv
-threshold:17 5 30 0 18 #fcfcfc #000000 #000000 0 1;
+threshold:17 5 30 0 18 -262144 -1 -1 1159 1;
 #X obj 257 54 process marelle1;
 #N canvas 108 277 449 570 save_threshold 0;
 #X msg 58 103 0 \$1;
