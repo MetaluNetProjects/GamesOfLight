@@ -1,4 +1,4 @@
-#N canvas 361 187 498 313 10;
+#N canvas 40 218 498 313 10;
 #X declare -path Fraise -stdpath Fraise;
 #X obj 16 58 pied/pied 0 41424;
 #X obj 179 12 declare -path Fraise -stdpath Fraise;
