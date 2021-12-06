@@ -1,15 +1,15 @@
-#N canvas 1 82 905 738 12;
+#N canvas 127 196 905 847 12;
 #X declare -path AutoPreset;
-#X obj 106 124 hsl 200 30 0 1 0 0 mix-Nappe-snd mix-Nappe-rcv Nappe
-5 15 0 20 -262130 -258113 -1 3500 1;
-#X obj 106 157 hsl 200 30 0 1 0 0 mix-SynthMono-snd mix-SynthMono-rcv
+#X obj 106 74 hsl 200 30 0 1 0 0 mix-Nappe-snd mix-Nappe-rcv Nappe
+5 15 0 20 -262130 -258113 -1 5900 1;
+#X obj 106 107 hsl 200 30 0 1 0 0 mix-SynthMono-snd mix-SynthMono-rcv
 SynthMono 5 15 0 20 -262130 -258113 -1 10800 1;
-#X obj 106 199 hsl 200 30 0 1 0 0 mix-Accord-snd mix-Accord-rcv Accord
+#X obj 106 149 hsl 200 30 0 1 0 0 mix-Accord-snd mix-Accord-rcv Accord
 5 15 0 20 -203904 -258113 -1 4600 1;
-#X obj 106 232 hsl 200 30 0 1 0 0 mix-Basse-snd mix-Basse-rcv Basse
+#X obj 106 182 hsl 200 30 0 1 0 0 mix-Basse-snd mix-Basse-rcv Basse
 5 15 0 20 -203904 -258113 -1 10400 1;
-#X obj 106 288 hsl 200 30 0 1 0 0 mix-Master-snd mix-Master-rcv Master
-5 15 0 20 -261682 -258113 -1 10600 1;
+#X obj 106 238 hsl 200 30 0 1 0 0 mix-Master-snd mix-Master-rcv Master
+5 15 0 20 -261682 -258113 -1 5200 1;
 #X obj 35 82 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 102 373 declare -path AutoPreset;
@@ -21,56 +21,73 @@ SynthMono 5 15 0 20 -262130 -258113 -1 10800 1;
 #X obj 102 518 apf config mix-Accord mix-Accord 2;
 #X obj 102 540 apf config mix-Basse mix-Basse 2;
 #X obj 102 568 apf config mix-Master mix-Master 2;
-#X obj 318 123 vu 20 200 master_vu empty -1 -8 0 10 -66577 -1 0 0;
-#X obj 358 127 vsl 20 160 0 2 0 0 mic1_gain-snd mic1_gain-rcv mic1
-0 -15 0 20 -262144 -1 -1 8100 1;
-#X obj 384 238 hsl 26 8 0 127 0 0 mic1-thres-snd mic1-thres-rcv empty
+#X obj 318 73 vu 20 200 master_vu empty -1 -8 0 10 -66577 -1 0 0;
+#X obj 358 77 vsl 20 160 0 2 0 0 mic1_gain-snd mic1_gain-rcv mic1 0
+-15 0 20 -262144 -1 -1 13500 1;
+#X obj 384 188 hsl 26 8 0 127 0 0 mic1-thres-snd mic1-thres-rcv empty
 -2 -8 0 10 -262131 -262131 -262144 0 1;
-#X obj 387 128 vu 20 160 mic1_vu empty -1 -8 0 10 -66577 -1 0 0;
-#X obj 434 128 vsl 20 160 0 2 0 0 mic2_gain-snd mic2_gain-rcv mic2
-0 -15 0 20 -262144 -1 -1 8000 1;
-#X obj 460 239 hsl 26 8 0 127 0 0 mic2-thres-snd mic2-thres-rcv empty
+#X obj 387 78 vu 20 160 mic1_vu empty -1 -8 0 10 -66577 -1 0 0;
+#X obj 434 78 vsl 20 160 0 2 0 0 mic2_gain-snd mic2_gain-rcv mic2 0
+-15 0 20 -262144 -1 -1 8000 1;
+#X obj 460 189 hsl 26 8 0 127 0 0 mic2-thres-snd mic2-thres-rcv empty
 -2 -8 0 10 -257985 -257985 -1 0 1;
-#X obj 463 129 vu 20 160 mic2_vu empty -1 -8 0 10 -66577 -1 0 0;
-#X obj 503 128 vsl 20 160 0 2 0 0 mic3_gain-snd mic3_gain-rcv mic3
-0 -15 0 20 -262144 -1 -1 8100 1;
-#X obj 529 239 hsl 26 8 0 127 0 0 mic3-thres-snd mic3-thres-rcv empty
+#X obj 463 79 vu 20 160 mic2_vu empty -1 -8 0 10 -66577 -1 0 0;
+#X obj 503 78 vsl 20 160 0 2 0 0 mic3_gain-snd mic3_gain-rcv mic3 0
+-15 0 20 -262144 -1 -1 8100 1;
+#X obj 529 189 hsl 26 8 0 127 0 0 mic3-thres-snd mic3-thres-rcv empty
 -2 -8 0 10 -257985 -257985 -1 0 1;
-#X obj 532 129 vu 20 160 mic3_vu empty -1 -8 0 10 -66577 -1 0 0;
+#X obj 532 79 vu 20 160 mic3_vu empty -1 -8 0 10 -66577 -1 0 0;
 #X obj 404 466 apf config mic1_gain mic1_gain 2;
 #X obj 404 488 apf config mic2_gain mic2_gain 2;
 #X obj 404 511 apf config mic3_gain mic3_gain 2;
 #X obj 309 405 r \$0-save;
 #X obj 102 400 r \$0-reload;
-#X obj 101 329 cnv 15 220 30 empty empty empty 20 12 0 14 -228856 -66577
+#X obj 101 279 cnv 15 220 30 empty empty empty 20 12 0 14 -228856 -66577
 0;
-#X obj 194 336 bng 20 250 50 0 \$0-reload \$0-reload reload 24 10 0
+#X obj 194 286 bng 20 250 50 0 \$0-reload \$0-reload reload 24 10 0
 20 -4034 -1 -1;
-#X obj 110 336 bng 20 250 50 0 \$0-save \$0-save save 24 10 0 20 -258113
+#X obj 110 286 bng 20 250 50 0 \$0-save \$0-save save 24 10 0 20 -258113
 -1 -1;
-#X obj 358 305 nbx 3 16 -1e+37 1e+37 0 0 mic1-force-snd mic1-force-rcv
+#X obj 358 255 nbx 3 16 -1e+37 1e+37 0 0 mic1-force-snd mic1-force-rcv
 force 0 -6 0 14 -261234 -1 -1 0 256;
-#X obj 358 343 nbx 3 16 -1e+37 1e+37 0 0 mic1-justesse-snd mic1-justesse-rcv
+#X obj 358 293 nbx 3 16 -1e+37 1e+37 0 0 mic1-justesse-snd mic1-justesse-rcv
 juste 0 -8 0 14 -204786 -1 -1 0 256;
-#X obj 433 305 nbx 3 16 -1e+37 1e+37 0 0 mic2-force-snd mic2-force-rcv
+#X obj 433 255 nbx 3 16 -1e+37 1e+37 0 0 mic2-force-snd mic2-force-rcv
 force 0 -6 0 14 -261234 -1 -1 0 256;
-#X obj 433 343 nbx 3 16 -1e+37 1e+37 0 0 mic2-justesse-snd mic2-justesse-rcv
+#X obj 433 293 nbx 3 16 -1e+37 1e+37 0 0 mic2-justesse-snd mic2-justesse-rcv
 juste 0 -8 0 14 -204786 -1 -1 0 256;
-#X obj 503 305 nbx 3 16 -1e+37 1e+37 0 0 mic3-force-snd mic3-force-rcv
-force 0 -6 0 14 -261234 -1 -1 10 256;
-#X obj 503 343 nbx 3 16 -1e+37 1e+37 0 0 mic3-justesse-snd mic3-justesse-rcv
+#X obj 503 255 nbx 3 16 -1e+37 1e+37 0 0 mic3-force-snd mic3-force-rcv
+force 0 -6 0 14 -261234 -1 -1 0 256;
+#X obj 503 293 nbx 3 16 -1e+37 1e+37 0 0 mic3-justesse-snd mic3-justesse-rcv
 juste 0 -8 0 14 -204786 -1 -1 0 256;
 #X obj 102 601 r Analyse;
 #X obj 102 622 route mic1 mic2 mic3, f 88;
-#X obj 102 647 route justesse force;
-#X obj 102 700 s mic1-justesse-rcv;
-#X obj 170 674 s mic1-force-rcv;
-#X obj 306 647 route justesse force;
-#X obj 510 648 route justesse force;
-#X obj 374 674 s mic2-force-rcv;
-#X obj 306 699 s mic2-justesse-rcv;
-#X obj 578 675 s mic3-force-rcv;
-#X obj 510 701 s mic3-justesse-rcv;
+#X obj 102 720 s mic1-justesse-rcv;
+#X obj 164 697 s mic1-force-rcv;
+#X obj 368 694 s mic2-force-rcv;
+#X obj 306 719 s mic2-justesse-rcv;
+#X obj 572 695 s mic3-force-rcv;
+#X obj 510 721 s mic3-justesse-rcv;
+#X obj 102 647 route justesse force impact;
+#X obj 306 647 route justesse force impact;
+#X obj 510 648 route justesse force impact;
+#X obj 226 672 s mic1-impact-rcv;
+#X obj 430 671 s mic2-impact-rcv;
+#X obj 634 672 s mic3-impact-rcv;
+#X obj 358 329 bng 20 250 50 0 mic1-impact-snd mic1-impact-rcv impact
+0 -8 0 14 -262130 -1 -1;
+#X obj 433 329 bng 20 250 50 0 mic2-impact-snd mic2-impact-rcv impact
+0 -8 0 14 -262130 -1 -1;
+#X obj 504 329 bng 20 250 50 0 mic3-impact-snd mic3-impact-rcv impact
+0 -8 0 14 -262130 -1 -1;
+#X obj 109 320 hsl 200 30 10 40 0 0 impact_seuil-snd impact_seuil-rcv
+Seuil_impact:26 5 15 0 20 -262130 -258113 -1 11200 1;
+#X obj 403 544 apf config impact_seuil impact_seuil 2;
+#X obj 692 447 r impact_seuil-snd;
+#X obj 692 471 i;
+#X obj 692 495 change;
+#X msg 692 519 label Seuil_impact:\$1;
+#X obj 692 543 s impact_seuil-rcv;
 #X connect 5 0 0 0;
 #X connect 5 0 1 0;
 #X connect 5 0 2 0;
@@ -80,13 +97,20 @@ juste 0 -8 0 14 -204786 -1 -1 0 256;
 #X connect 28 0 8 1;
 #X connect 29 0 8 0;
 #X connect 39 0 40 0;
-#X connect 40 0 41 0;
-#X connect 40 1 44 0;
-#X connect 40 2 45 0;
-#X connect 41 0 42 0;
-#X connect 41 1 43 0;
-#X connect 44 0 47 0;
-#X connect 44 1 46 0;
-#X connect 45 0 49 0;
-#X connect 45 1 48 0;
-#X coords 0 -1 1 1 470 261 1 100 100;
+#X connect 40 0 47 0;
+#X connect 40 1 48 0;
+#X connect 40 2 49 0;
+#X connect 47 0 41 0;
+#X connect 47 1 42 0;
+#X connect 47 2 50 0;
+#X connect 48 0 44 0;
+#X connect 48 1 43 0;
+#X connect 48 2 51 0;
+#X connect 49 0 46 0;
+#X connect 49 1 45 0;
+#X connect 49 2 52 0;
+#X connect 58 0 59 0;
+#X connect 59 0 60 0;
+#X connect 60 0 61 0;
+#X connect 61 0 62 0;
+#X coords 0 -1 1 1 470 310 1 100 50;

@@ -1,4 +1,4 @@
-#N canvas 578 608 810 393 10;
+#N canvas 578 608 855 393 10;
 #X msg 47 189 pd~ stop;
 #X obj 228 120 loadbang;
 #X msg 228 165 pd~ start -nogui \$1.pd;
@@ -36,6 +36,10 @@
 #X obj 113 293 del 10;
 #X obj 440 20 r mix-SynthMono-snd;
 #X obj 564 21 r mix-Nappe-snd;
+#X obj 678 22 r impact_seuil-snd;
+#X obj 678 62 f;
+#X obj 690 43 r \$0-resend;
+#X msg 678 88 ImpactSeuil \$1;
 #X connect 0 0 18 0;
 #X connect 1 0 5 0;
 #X connect 2 0 18 0;
@@ -69,4 +73,8 @@
 #X connect 31 0 21 0;
 #X connect 32 0 24 0;
 #X connect 33 0 27 0;
+#X connect 34 0 35 0;
+#X connect 35 0 37 0;
+#X connect 36 0 35 0;
+#X connect 37 0 18 0;
 #X coords 0 -1 1 1 90 40 1 20 20;
