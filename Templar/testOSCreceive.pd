@@ -1,26 +1,49 @@
-#N canvas 789 55 388 251 12;
+#N canvas 301 68 397 316 12;
 #X obj 40 77 oscparse;
-#X obj 40 181 bng 30 250 50 0 empty empty 1 10 15 0 20 #fc8000 #000000
+#X obj 415 205 bng 30 250 50 0 empty empty 1 10 15 0 20 #fc8000 #000000
 #000000;
 #X obj 40 105 list trim;
-#X text 38 23 OSC receiver for testing puissance4trigger;
-#X obj 40 129 route btn;
-#X obj 91 181 bng 30 250 50 0 empty empty 2 10 15 0 20 #fc8000 #000000
+#X obj 415 153 route btn;
+#X obj 466 205 bng 30 250 50 0 empty empty 2 10 15 0 20 #fc8000 #000000
 #000000;
-#X obj 142 179 bng 30 250 50 0 empty empty 3 10 15 0 20 #fc8000 #000000
+#X obj 517 203 bng 30 250 50 0 empty empty 3 10 15 0 20 #fc8000 #000000
 #000000;
-#X obj 193 179 bng 30 250 50 0 empty empty 4 10 15 0 20 #fc8000 #000000
+#X obj 568 203 bng 30 250 50 0 empty empty 4 10 15 0 20 #fc8000 #000000
 #000000;
-#X obj 244 178 bng 30 250 50 0 empty empty 5 10 15 0 20 #fc8000 #000000
+#X obj 619 202 bng 30 250 50 0 empty empty 5 10 15 0 20 #fc8000 #000000
 #000000;
-#X obj 40 155 sel 1 2 3 4 5, f 37;
+#X obj 415 179 sel 1 2 3 4 5, f 37;
 #X obj 40 53 netreceive -u -b 8000;
+#X obj 40 205 tgl 30 0 empty empty 1 10 15 0 16 #fcfcc4 #000000 #000000
+0 1;
+#X msg 40 153 \$1 1;
+#X obj 40 129 route btn_on btn_off;
+#X msg 108 152 \$1 0;
+#X obj 75 205 tgl 30 0 empty empty 2 10 15 0 16 #fcfcc4 #000000 #000000
+0 1;
+#X obj 111 205 tgl 30 0 empty empty 3 10 15 0 16 #fcfcc4 #000000 #000000
+0 1;
+#X obj 147 205 tgl 30 0 empty empty 4 10 15 0 16 #fcfcc4 #000000 #000000
+0 1;
+#X obj 183 205 tgl 30 0 empty empty 5 10 15 0 16 #fcfcc4 #000000 #000000
+0 1;
+#X obj 40 177 route 1 2 3 4 5, f 26;
+#X text 38 23 OSC receiver for testing Templar;
 #X connect 0 0 2 0;
-#X connect 2 0 4 0;
-#X connect 4 0 9 0;
-#X connect 9 0 1 0;
-#X connect 9 1 5 0;
-#X connect 9 2 6 0;
-#X connect 9 3 7 0;
-#X connect 9 4 8 0;
-#X connect 10 0 0 0;
+#X connect 2 0 12 0;
+#X connect 3 0 8 0;
+#X connect 8 0 1 0;
+#X connect 8 1 4 0;
+#X connect 8 2 5 0;
+#X connect 8 3 6 0;
+#X connect 8 4 7 0;
+#X connect 9 0 0 0;
+#X connect 11 0 18 0;
+#X connect 12 0 11 0;
+#X connect 12 1 13 0;
+#X connect 13 0 18 0;
+#X connect 18 0 10 0;
+#X connect 18 1 14 0;
+#X connect 18 2 15 0;
+#X connect 18 3 16 0;
+#X connect 18 4 17 0;
