@@ -7,10 +7,10 @@
 1 1;
 #X msg 180 196 disconnect;
 #X msg 181 160 connect localhost 8000;
-#X obj 25 79 oscformat -f if /pression;
 #X obj 191 79 oscformat -f if /saut;
 #X obj 191 41 r SAUT;
 #X obj 25 39 r PRESSION;
+#X obj 25 79 oscformat -f iff /pression;
 #X connect 0 0 4 0;
 #X connect 1 0 2 0;
 #X connect 2 0 0 0;
@@ -18,6 +18,6 @@
 #X connect 5 0 0 0;
 #X connect 6 0 0 0;
 #X connect 7 0 1 0;
-#X connect 8 0 1 0;
-#X connect 9 0 8 0;
-#X connect 10 0 7 0;
+#X connect 8 0 7 0;
+#X connect 9 0 10 0;
+#X connect 10 0 1 0;

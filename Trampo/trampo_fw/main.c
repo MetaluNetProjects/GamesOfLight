@@ -13,6 +13,7 @@ unsigned int threshold = 120;
 unsigned char presence = 0;
 unsigned char triggered = 0;
 unsigned int maximum;
+unsigned int instMax;
 t_delay maxDelay;
 unsigned int millisCount = 0;
 unsigned int window_ms = 100;
@@ -39,6 +40,7 @@ void trampoService()
 	unsigned int current = analogGet(0);
 	unsigned char tmp_presence = analogGet(0) > threshold;
 	
+	if(instMax < current) instMax = current;
 	if(presence == 0) {
 		if(tmp_presence == 0) return;
 		maximum = current;
@@ -63,6 +65,7 @@ void trampoService()
 
 unsigned char analogSendCount;
 void loop() {
+	unsigned int now;
 // ---------- Main loop ------------
 	fraiseService();	// listen to Fraise events
 	analogService();	// analog management routine
@@ -72,7 +75,10 @@ void loop() {
 	{
 		delayStart(mainDelay, 5000); 	// re-init mainDelay
 		if(analogSendCount++ > 20) {
-			analogSend();		// send analog channels that changed
+			now = analogGet(0);
+			//analogSend();		// send analog channels that changed
+			printf("CI %d %d\n", now, instMax);
+			instMax = now;
 			analogSendCount = 0;
 		}
 		millisCount += 5;
