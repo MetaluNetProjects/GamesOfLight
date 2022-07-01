@@ -1,4 +1,4 @@
-#N canvas 380 273 743 426 10;
+#N canvas 380 273 743 512 10;
 #X declare -path Fraise -stdpath Fraise;
 #X obj 16 56 pied/pied 0 41424;
 #X obj 181 12 declare -path Fraise -stdpath Fraise;
@@ -9,3 +9,4 @@
 #X obj 298 77 send_OSC;
 #X obj 16 10 cnv 15 150 40 empty empty Snake 10 20 2 30 #e0e0e0 #404040
 0;
+#X obj 15 413 threshold snake;
