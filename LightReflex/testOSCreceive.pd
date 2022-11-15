@@ -1,0 +1,18 @@
+#N canvas 14 595 395 307 12;
+#X obj 40 77 oscparse;
+#X obj 40 105 list trim;
+#X obj 40 53 netreceive -u -b 8000;
+#X obj 40 208 tgl 30 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X msg 40 154 \$1 1;
+#X obj 40 130 route btn_on btn_off;
+#X msg 108 153 \$1 0;
+#X obj 40 178 route 1, f 8;
+#X text 34 23 OSC receiver for testing LightReflex;
+#X connect 0 0 1 0;
+#X connect 1 0 5 0;
+#X connect 2 0 0 0;
+#X connect 4 0 7 0;
+#X connect 5 0 4 0;
+#X connect 5 1 6 0;
+#X connect 6 0 7 0;
+#X connect 7 0 3 0;

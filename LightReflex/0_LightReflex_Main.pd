@@ -1,0 +1,10 @@
+#N canvas 1166 41 572 451 10;
+#X declare -path Fraise -stdpath Fraise;
+#X obj 16 58 pied/pied 0 41424;
+#X obj 179 12 declare -path Fraise -stdpath Fraise;
+#X obj 287 76 send_OSC;
+#X obj 16 10 cnv 15 150 40 empty empty Trampo 10 20 2 30 #e0e0e0 #404040 0;
+#X text 232 141 j'ai gardé pour l'instant le nom du fruit "trampo1" \, pour ne pas avoir à le renommer., f 52;
+#X obj 15 187 player 1 reflex;
+#X obj 15 289 threshold reflex;
+#X obj 16 136 fruit/fruit 1 trampo1 11 reflex_fw;
