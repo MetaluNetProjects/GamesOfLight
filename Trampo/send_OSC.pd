@@ -1,16 +1,21 @@
-#N canvas 124 124 426 316 10;
+#N canvas 124 124 785 316 10;
 #X obj 25 228 netsend -b -u;
 #X obj 25 127 list prepend send;
 #X obj 25 151 list trim;
 #X obj 181 136 loadbang;
-#X obj 25 252 tgl 15 0 empty empty connected 17 7 0 10 -262144 -1 -1
-1 1;
+#X obj 25 252 tgl 15 0 empty empty connected 17 7 0 10 #fcfcfc #000000 #000000 0 1;
 #X msg 180 196 disconnect;
 #X msg 181 160 connect localhost 8000;
 #X obj 191 79 oscformat -f if /saut;
 #X obj 191 41 r SAUT;
 #X obj 25 39 r PRESSION;
 #X obj 25 79 oscformat -f iff /pression;
+#X obj 362 22 r PUSH;
+#X text 406 21 num state;
+#X msg 362 43 \$2 \$1;
+#X obj 362 64 route 1 0, f 48;
+#X obj 362 90 oscformat -f i /btn_on;
+#X obj 504 89 oscformat -f i /btn_off;
 #X connect 0 0 4 0;
 #X connect 1 0 2 0;
 #X connect 2 0 0 0;
@@ -21,3 +26,9 @@
 #X connect 8 0 7 0;
 #X connect 9 0 10 0;
 #X connect 10 0 1 0;
+#X connect 11 0 13 0;
+#X connect 13 0 14 0;
+#X connect 14 0 15 0;
+#X connect 14 1 16 0;
+#X connect 15 0 1 0;
+#X connect 16 0 1 0;

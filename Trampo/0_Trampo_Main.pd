@@ -1,15 +1,15 @@
-#N canvas 878 82 896 303 10;
+#N canvas 878 82 933 451 10;
 #X declare -path Fraise -stdpath Fraise;
 #X obj 16 58 pied/pied 0 41424;
 #X obj 179 12 declare -path Fraise -stdpath Fraise;
-#X obj 16 136 fruit/fruit 1 trampo1 11 trampo_fw;
-#X obj 232 137 fruit/fruit 1 trampo2 12 trampo_fw;
-#X obj 451 137 fruit/fruit 1 trampo3 13 trampo_fw;
-#X obj 673 135 fruit/fruit 1 trampo4 14 trampo_fw;
-#X obj 15 187 player 1;
-#X obj 231 187 player 2;
-#X obj 450 187 player 3;
-#X obj 674 187 player 4;
+#X obj 244 136 fruit/fruit 1 trampo2 12 trampo_fw;
+#X obj 463 136 fruit/fruit 1 trampo3 13 trampo_fw;
+#X obj 685 134 fruit/fruit 1 trampo4 14 trampo_fw;
 #X obj 287 76 send_OSC;
-#X obj 16 10 cnv 15 150 40 empty empty Trampo 10 20 2 30 -233017 -66577
-0;
+#X obj 16 10 cnv 15 150 40 empty empty Trampo 10 20 2 30 #e0e0e0 #404040 0;
+#X obj 16 136 fruit/fruit 1 trampo1 11 trampo_fw 1;
+#X obj 15 289 threshold trampo;
+#X obj 15 187 player 1 trampo;
+#X obj 243 186 player 2 trampo;
+#X obj 462 186 player 3 trampo;
+#X obj 686 186 player 4 trampo;

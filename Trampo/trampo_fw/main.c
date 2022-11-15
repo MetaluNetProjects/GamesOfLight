@@ -69,19 +69,20 @@ void loop() {
 // ---------- Main loop ------------
 	fraiseService();	// listen to Fraise events
 	analogService();	// analog management routine
-	trampoService();
+	//trampoService();
 	
 	if(delayFinished(mainDelay)) // when mainDelay triggers :
 	{
 		delayStart(mainDelay, 5000); 	// re-init mainDelay
-		if(analogSendCount++ > 20) {
+		/*if(analogSendCount++ > 20) {
 			now = analogGet(0);
 			//analogSend();		// send analog channels that changed
 			printf("CI %d %d\n", now, instMax);
 			instMax = now;
 			analogSendCount = 0;
 		}
-		millisCount += 5;
+		millisCount += 5;*/
+		analogSend();
 	}
 }
 
