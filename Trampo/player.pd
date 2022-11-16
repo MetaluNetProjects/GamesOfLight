@@ -1,4 +1,4 @@
-#N canvas 444 370 753 573 10;
+#N canvas 294 285 753 573 10;
 #X floatatom 179 301 5 0 0 3 pression - - 0;
 #X floatatom 118 301 5 0 0 3 saut - - 0;
 #X obj 421 11 fruit/receive trampo\$1;
@@ -67,8 +67,8 @@
 #X obj 534 226 r P\$1-push-snd;
 #X obj 587 27 r \$2-setzero;
 #X obj 587 90 s \$2_zeros;
-#X obj 478 161 tabread \$2 _zeros;
-#X obj 510 181 r \$2 _threshold-snd;
+#X obj 478 161 tabread \$2_zeros;
+#X obj 510 181 r \$2_threshold-snd;
 #X connect 0 0 23 0;
 #X connect 1 0 27 0;
 #X connect 2 0 42 0;
@@ -117,6 +117,7 @@
 #X connect 49 0 48 1;
 #X connect 50 0 51 0;
 #X connect 51 0 67 0;
+#X connect 52 0 44 0;
 #X connect 53 0 62 0;
 #X connect 57 0 58 0;
 #X connect 57 1 59 0;

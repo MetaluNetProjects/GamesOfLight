@@ -24,8 +24,8 @@
 #X obj 168 435 r P\$1-push-snd;
 #X obj 329 227 r \$2-setzero;
 #X obj 329 290 s \$2_zeros;
-#X obj 112 370 tabread \$2 _zeros;
-#X obj 144 390 r \$2 _threshold-snd;
+#X obj 112 370 tabread \$2_zeros;
+#X obj 144 390 r \$2_threshold-snd;
 #X connect 0 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 4 0;
