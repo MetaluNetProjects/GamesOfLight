@@ -14,6 +14,8 @@ t_delay mainDelay;
 #define LIDAR_BASEADDRESS 20
 unsigned char autoLidar = 1;
 
+#define LIDAR_IS_POWERED (digitalRead(LIDAR_POWEROFF) == 0)
+
 void i2cWriteReg(byte address, byte reg, byte value)
 {
 	i2cm_begin(address,0);
@@ -63,6 +65,9 @@ void setup(void) {
 	
 	//analogInit();
 	//analogSelect(0, K1);
+
+	pinModeDigitalOut(LIDAR_POWEROFF);
+	digitalClear(LIDAR_POWEROFF);
 }
 
 unsigned char buf[11];
@@ -149,6 +154,10 @@ void fraiseReceive() // receive
 	}
 	else if(c == 100) { // restart i2c
 		i2cm_init(I2C_MASTER, I2C_SLEW_ON, 255/*(unsigned char)(FOSC/100000/4-1)*/);
+	}
+	else if(c == 110) { // poweroff lidar
+		c = fraiseGetChar();
+		digitalWrite(LIDAR_POWEROFF, c != 0);
 	}
 
 }
