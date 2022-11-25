@@ -1,9 +1,9 @@
-#N canvas 1082 175 508 437 10;
+#N canvas 624 147 508 437 10;
 #X declare -path motex -path motex -lib motex;
 #X declare -path iemlib -lib iemlib -path zexy -lib zexy;
 #X declare -path absGAMME;
 #X obj 18 67 mixer;
-#N canvas 378 594 712 337 stuff 0;
+#N canvas 551 139 712 337 stuff 0;
 #X obj 19 188 loadbang;
 #X msg 19 209 \; pd dsp 1;
 #X obj 15 28 declare -path motex -path motex -lib motex;
@@ -29,7 +29,7 @@
 #X obj 149 172 rev3~ 100 90 2000 30;
 #X obj 10 39 catch~ master-norev;
 #X obj 298 170 hsl 128 15 0 1 0 1 empty empty empty -2 -8 0 10 -262144
--1 -1 3319 1;
+-1 -1 6765 1;
 #X obj 176 248 limiter~;
 #X obj 136 249 z~ 64;
 #X obj 192 99 hsl 128 15 0 1 0 1 empty empty empty -2 -8 0 10 -262144
@@ -381,6 +381,7 @@
 1;
 #X obj 140 285 s Analyse;
 #X obj 140 263 list trim;
+#X obj 576 89 adc~ 4;
 #X connect 0 0 1 0;
 #X connect 4 0 5 0;
 #X connect 5 0 8 0;
@@ -406,6 +407,7 @@
 #X connect 28 0 29 0;
 #X connect 30 0 28 1;
 #X connect 32 0 31 0;
+#X connect 33 0 23 0;
 #X restore 181 33 pd stuff;
 #X obj 16 10 cnv 15 150 40 empty empty Arbre 10 20 2 30 -233017 -66577
 0;

@@ -1,7 +1,7 @@
-#N canvas 127 196 905 847 12;
+#N canvas 127 81 905 662 12;
 #X declare -path AutoPreset;
 #X obj 106 74 hsl 200 30 0 1 0 0 mix-Nappe-snd mix-Nappe-rcv Nappe
-5 15 0 20 -262130 -258113 -1 5500 1;
+5 15 0 20 -262130 -258113 -1 3500 1;
 #X obj 106 107 hsl 200 30 0 1 0 0 mix-SynthMono-snd mix-SynthMono-rcv
 SynthMono 5 15 0 20 -262130 -258113 -1 10800 1;
 #X obj 106 149 hsl 200 30 0 1 0 0 mix-Accord-snd mix-Accord-rcv Accord
@@ -9,7 +9,7 @@ SynthMono 5 15 0 20 -262130 -258113 -1 10800 1;
 #X obj 106 182 hsl 200 30 0 1 0 0 mix-Basse-snd mix-Basse-rcv Basse
 5 15 0 20 -203904 -258113 -1 10400 1;
 #X obj 106 238 hsl 200 30 0 1 0 0 mix-Master-snd mix-Master-rcv Master
-5 15 0 20 -261682 -258113 -1 10100 1;
+5 15 0 20 -261682 -258113 -1 10600 1;
 #X obj 35 82 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 102 373 declare -path AutoPreset;
@@ -22,21 +22,21 @@ SynthMono 5 15 0 20 -262130 -258113 -1 10800 1;
 #X obj 102 540 apf config mix-Basse mix-Basse 2;
 #X obj 102 568 apf config mix-Master mix-Master 2;
 #X obj 318 73 vu 20 200 master_vu empty -1 -8 0 10 -66577 -1 0 0;
-#X obj 358 77 vsl 20 160 0 2 0 0 mic1_gain-snd mic1_gain-rcv mic1 0
--15 0 20 -262144 -1 -1 8200 1;
-#X obj 384 188 hsl 26 8 0 127 0 0 mic1-thres-snd mic1-thres-rcv empty
--2 -8 0 10 -262131 -262131 -262144 0 1;
-#X obj 387 78 vu 20 160 mic1_vu empty -1 -8 0 10 -66577 -1 0 0;
-#X obj 434 78 vsl 20 160 0 2 0 0 mic2_gain-snd mic2_gain-rcv mic2 0
--15 0 20 -262144 -1 -1 8000 1;
-#X obj 460 189 hsl 26 8 0 127 0 0 mic2-thres-snd mic2-thres-rcv empty
--2 -8 0 10 -257985 -257985 -1 0 1;
-#X obj 463 79 vu 20 160 mic2_vu empty -1 -8 0 10 -66577 -1 0 0;
-#X obj 503 78 vsl 20 160 0 2 0 0 mic3_gain-snd mic3_gain-rcv mic3 0
+#X obj 353 77 vsl 20 160 0 2 0 0 mic1_gain-snd mic1_gain-rcv mic1 0
 -15 0 20 -262144 -1 -1 8100 1;
-#X obj 529 189 hsl 26 8 0 127 0 0 mic3-thres-snd mic3-thres-rcv empty
+#X obj 379 188 hsl 26 8 0 127 0 0 mic1-thres-snd mic1-thres-rcv empty
+-2 -8 0 10 -262131 -262131 -262144 0 1;
+#X obj 382 78 vu 20 160 mic1_vu empty -1 -8 0 10 -66577 -1 0 0;
+#X obj 429 78 vsl 20 160 0 2 0 0 mic2_gain-snd mic2_gain-rcv mic2 0
+-15 0 20 -262144 -1 -1 8000 1;
+#X obj 455 189 hsl 26 8 0 127 0 0 mic2-thres-snd mic2-thres-rcv empty
+-2 -8 0 10 -262131 -262131 -262144 0 1;
+#X obj 458 79 vu 20 160 mic2_vu empty -1 -8 0 10 -66577 -1 0 0;
+#X obj 498 78 vsl 20 160 0 2 0 0 mic3_gain-snd mic3_gain-rcv mic3+4
+0 -15 0 20 -262144 -1 -1 8100 1;
+#X obj 524 189 hsl 26 8 0 127 0 0 mic3-thres-snd mic3-thres-rcv empty
 -2 -8 0 10 -257985 -257985 -1 0 1;
-#X obj 532 79 vu 20 160 mic3_vu empty -1 -8 0 10 -66577 -1 0 0;
+#X obj 527 79 vu 20 160 mic3_vu empty -1 -8 0 10 -66577 -1 0 0;
 #X obj 404 466 apf config mic1_gain mic1_gain 2;
 #X obj 404 488 apf config mic2_gain mic2_gain 2;
 #X obj 404 511 apf config mic3_gain mic3_gain 2;
@@ -48,17 +48,17 @@ SynthMono 5 15 0 20 -262130 -258113 -1 10800 1;
 20 -4034 -1 -1;
 #X obj 110 286 bng 20 250 50 0 \$0-save \$0-save save 24 10 0 20 -258113
 -1 -1;
-#X obj 358 255 nbx 3 16 0 100 0 0 mic1-force-snd mic1-force-rcv force
+#X obj 353 255 nbx 3 16 0 100 0 0 mic1-force-snd mic1-force-rcv force
 0 -6 0 14 -261234 -1 -1 0 256;
-#X obj 358 293 nbx 3 16 0 100 0 0 mic1-justesse-snd mic1-justesse-rcv
+#X obj 353 293 nbx 3 16 0 100 0 0 mic1-justesse-snd mic1-justesse-rcv
 juste 0 -8 0 14 -204786 -1 -1 0 256;
-#X obj 433 255 nbx 3 16 0 100 0 0 mic2-force-snd mic2-force-rcv force
+#X obj 428 255 nbx 3 16 0 100 0 0 mic2-force-snd mic2-force-rcv force
 0 -6 0 14 -261234 -1 -1 0 256;
-#X obj 433 293 nbx 3 16 0 100 0 0 mic2-justesse-snd mic2-justesse-rcv
+#X obj 428 293 nbx 3 16 0 100 0 0 mic2-justesse-snd mic2-justesse-rcv
 juste 0 -8 0 14 -204786 -1 -1 0 256;
-#X obj 503 255 nbx 3 16 0 100 0 0 mic3-force-snd mic3-force-rcv force
+#X obj 498 255 nbx 3 16 0 100 0 0 mic3-force-snd mic3-force-rcv force
 0 -6 0 14 -261234 -1 -1 0 256;
-#X obj 503 293 nbx 3 16 0 100 0 0 mic3-justesse-snd mic3-justesse-rcv
+#X obj 498 293 nbx 3 16 0 100 0 0 mic3-justesse-snd mic3-justesse-rcv
 juste 0 -8 0 14 -204786 -1 -1 0 256;
 #X obj 102 601 r Analyse;
 #X obj 102 622 route mic1 mic2 mic3, f 88;
@@ -74,14 +74,14 @@ juste 0 -8 0 14 -204786 -1 -1 0 256;
 #X obj 226 672 s mic1-impact-rcv;
 #X obj 430 671 s mic2-impact-rcv;
 #X obj 634 672 s mic3-impact-rcv;
-#X obj 358 329 bng 20 250 50 0 mic1-impact-snd mic1-impact-rcv impact
+#X obj 353 329 bng 20 250 50 0 mic1-impact-snd mic1-impact-rcv impact
 0 -8 0 14 -262130 -1 -1;
-#X obj 433 329 bng 20 250 50 0 mic2-impact-snd mic2-impact-rcv impact
+#X obj 428 329 bng 20 250 50 0 mic2-impact-snd mic2-impact-rcv impact
 0 -8 0 14 -262130 -1 -1;
-#X obj 504 329 bng 20 250 50 0 mic3-impact-snd mic3-impact-rcv impact
+#X obj 499 329 bng 20 250 50 0 mic3-impact-snd mic3-impact-rcv impact
 0 -8 0 14 -262130 -1 -1;
 #X obj 109 320 hsl 200 30 10 40 0 0 impact_seuil-snd impact_seuil-rcv
-Seuil_impact:26 5 15 0 20 -262130 -258113 -1 11200 1;
+Seuil_impact:26 5 15 0 20 -262130 -258113 -1 0 1;
 #X obj 403 544 apf config impact_seuil impact_seuil 2;
 #X obj 692 447 r impact_seuil-snd;
 #X obj 692 471 i;
