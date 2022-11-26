@@ -1,0 +1,75 @@
+#N canvas 20 28 789 500 12;
+#X obj 40 77 oscparse;
+#X obj 40 105 list trim;
+#X obj 40 54 netreceive -u -b 8000;
+#X obj 40 129 route composition;
+#X obj 40 178 t a a, f 14;
+#X obj 238 208 list split 1;
+#X obj 80 230 list trim;
+#X obj 40 205 list split 3;
+#X obj 80 280 route link1 link2;
+#X obj 80 328 list prepend, f 23;
+#X obj 238 233 f;
+#X obj 80 352 route 9 8 7 6 5 4 3 2 1, f 94;
+#X obj 80 402 nbx 4 17 -1e+37 1e+37 0 0 empty empty force 0 25 0 12
+#ffc7c6 #000000 #000000 0 256;
+#X obj 152 401 nbx 4 17 -1e+37 1e+37 0 0 empty empty juste 0 25 0 12
+#c6ffc7 #000000 #000000 0 256;
+#X obj 225 394 bng 19 250 50 0 empty empty impact 0 28 0 12 #feffc6
+#000000 #000000;
+#X obj 298 397 nbx 4 17 -1e+37 1e+37 0 0 empty empty force 0 25 0 12
+#ffc7c6 #000000 #000000 0 256;
+#X obj 370 396 nbx 4 17 -1e+37 1e+37 0 0 empty empty juste 0 25 0 12
+#c6ffc7 #000000 #000000 0 256;
+#X obj 443 389 bng 19 250 50 0 empty empty impact 0 28 0 12 #feffc6
+#000000 #000000;
+#X obj 516 392 nbx 4 17 -1e+37 1e+37 0 0 empty empty force 0 25 0 12
+#ffc7c6 #000000 #000000 0 256;
+#X obj 589 391 nbx 4 17 -1e+37 1e+37 0 0 empty empty juste 0 25 0 12
+#c6ffc7 #000000 #000000 0 256;
+#X obj 662 384 bng 19 250 50 0 empty empty impact 0 28 0 12 #feffc6
+#000000 #000000;
+#X text 80 435 -------- mic1 --------;
+#X text 297 433 -------- mic2 --------;
+#X text 528 427 -------- mic3 --------;
+#X text 38 23 OSC receiver for testing Arbre;
+#X floatatom 457 265 5 0 0 0 - - - 0;
+#X obj 80 256 route dashboard transport;
+#X obj 209 280 list split 3;
+#X obj 40 151 route layers columns;
+#X obj 433 248 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X symbolatom 524 241 10 0 0 0 - - - 0;
+#X obj 457 216 unpack s s;
+#X obj 457 241 f;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 2 0 0 0;
+#X connect 3 0 28 0;
+#X connect 4 0 7 0;
+#X connect 4 1 5 0;
+#X connect 5 0 10 0;
+#X connect 6 0 26 0;
+#X connect 7 1 6 0;
+#X connect 8 0 9 0;
+#X connect 8 1 9 0;
+#X connect 9 0 11 0;
+#X connect 10 0 9 1;
+#X connect 11 0 12 0;
+#X connect 11 1 13 0;
+#X connect 11 2 14 0;
+#X connect 11 3 15 0;
+#X connect 11 4 16 0;
+#X connect 11 5 17 0;
+#X connect 11 6 18 0;
+#X connect 11 7 19 0;
+#X connect 11 8 20 0;
+#X connect 26 0 8 0;
+#X connect 26 1 27 0;
+#X connect 27 0 9 0;
+#X connect 28 0 4 0;
+#X connect 28 1 31 0;
+#X connect 31 0 29 0;
+#X connect 31 0 32 0;
+#X connect 31 1 30 0;
+#X connect 32 0 25 0;
