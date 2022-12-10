@@ -1,9 +1,9 @@
-#N canvas 578 608 855 393 10;
+#N canvas 236 374 1106 393 10;
 #X msg 47 189 pd~ stop;
 #X obj 228 120 loadbang;
 #X msg 228 165 pd~ start -nogui \$1.pd;
-#X obj 22 42 bng 15 250 50 0 empty empty GUI 17 7 0 10 -4034 -1 -1
-;
+#X obj 22 42 bng 15 250 50 0 empty empty GUI 17 7 0 10 #00fc04 #000000
+#000000;
 #X msg 113 165 pd~ start \$1.pd;
 #X obj 228 141 symbol \$1;
 #X obj 113 141 symbol \$1;
@@ -12,8 +12,8 @@
 #X obj 113 251 route _loaded;
 #X obj 113 272 b;
 #X obj 259 61 f;
-#X obj 62 42 bng 15 250 50 0 empty empty noGUI 17 7 0 10 -257985 -1
--1;
+#X obj 62 42 bng 15 250 50 0 empty empty noGUI 17 7 0 10 #f8fc00 #000000
+#000000;
 #X obj 381 164 inlet;
 #X obj 259 18 r /GAMME;
 #X msg 259 87 /GAMME \$1;
@@ -31,8 +31,8 @@
 #X obj 564 59 f;
 #X obj 576 40 r \$0-resend;
 #X msg 564 85 mix-Nappe \$1;
-#X obj 82 288 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
+#X obj 82 288 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
 #X obj 113 293 del 10;
 #X obj 440 20 r mix-SynthMono-snd;
 #X obj 564 21 r mix-Nappe-snd;
@@ -40,6 +40,22 @@
 #X obj 678 62 f;
 #X obj 690 43 r \$0-resend;
 #X msg 678 88 ImpactSeuil \$1;
+#X obj 796 62 f;
+#X obj 808 43 r \$0-resend;
+#X obj 796 22 r speed-justesseUp-snd;
+#X obj 943 61 f;
+#X obj 955 42 r \$0-resend;
+#X obj 943 21 r speed-justesseDn-snd;
+#X obj 796 165 f;
+#X obj 808 146 r \$0-resend;
+#X obj 943 164 f;
+#X obj 955 145 r \$0-resend;
+#X obj 796 125 r speed-forceUp-snd;
+#X obj 943 124 r speed-forceDn-snd;
+#X msg 796 88 speed-justesse up \$1;
+#X msg 943 87 speed-justesse down \$1;
+#X msg 796 191 speed-force up \$1;
+#X msg 943 190 speed-force down \$1;
 #X connect 0 0 18 0;
 #X connect 1 0 5 0;
 #X connect 2 0 18 0;
@@ -77,4 +93,20 @@
 #X connect 35 0 37 0;
 #X connect 36 0 35 0;
 #X connect 37 0 18 0;
+#X connect 38 0 50 0;
+#X connect 39 0 38 0;
+#X connect 40 0 38 0;
+#X connect 41 0 51 0;
+#X connect 42 0 41 0;
+#X connect 43 0 41 0;
+#X connect 44 0 52 0;
+#X connect 45 0 44 0;
+#X connect 46 0 53 0;
+#X connect 47 0 46 0;
+#X connect 48 0 44 0;
+#X connect 49 0 46 0;
+#X connect 50 0 18 0;
+#X connect 51 0 18 0;
+#X connect 52 0 18 0;
+#X connect 53 0 18 0;
 #X coords 0 -1 1 1 90 40 1 20 20;

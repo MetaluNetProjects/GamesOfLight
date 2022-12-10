@@ -1,93 +1,109 @@
-#N canvas 127 81 905 662 12;
+#N canvas 127 81 1191 737 12;
 #X declare -path AutoPreset;
-#X obj 106 74 hsl 200 30 0 1 0 0 mix-Nappe-snd mix-Nappe-rcv Nappe
-5 15 0 20 -262130 -258113 -1 3500 1;
-#X obj 106 107 hsl 200 30 0 1 0 0 mix-SynthMono-snd mix-SynthMono-rcv
-SynthMono 5 15 0 20 -262130 -258113 -1 10800 1;
-#X obj 106 149 hsl 200 30 0 1 0 0 mix-Accord-snd mix-Accord-rcv Accord
-5 15 0 20 -203904 -258113 -1 4600 1;
-#X obj 106 182 hsl 200 30 0 1 0 0 mix-Basse-snd mix-Basse-rcv Basse
-5 15 0 20 -203904 -258113 -1 10400 1;
-#X obj 106 238 hsl 200 30 0 1 0 0 mix-Master-snd mix-Master-rcv Master
-5 15 0 20 -261682 -258113 -1 10600 1;
-#X obj 35 82 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
-#X obj 102 373 declare -path AutoPreset;
-#X obj 280 374 apmaster config;
-#X obj 102 428 apmasterfile config config.txt;
-#X obj 191 400 loadbang;
-#X obj 102 467 apf config mix-Nappe mix-Nappe 2;
-#X obj 102 490 apf config mix-SynthMono mix-SynthMono 2;
-#X obj 102 518 apf config mix-Accord mix-Accord 2;
-#X obj 102 540 apf config mix-Basse mix-Basse 2;
-#X obj 102 568 apf config mix-Master mix-Master 2;
-#X obj 318 73 vu 20 200 master_vu empty -1 -8 0 10 -66577 -1 0 0;
-#X obj 353 77 vsl 20 160 0 2 0 0 mic1_gain-snd mic1_gain-rcv mic1 0
--15 0 20 -262144 -1 -1 8100 1;
-#X obj 379 188 hsl 26 8 0 127 0 0 mic1-thres-snd mic1-thres-rcv empty
--2 -8 0 10 -262131 -262131 -262144 0 1;
-#X obj 382 78 vu 20 160 mic1_vu empty -1 -8 0 10 -66577 -1 0 0;
-#X obj 429 78 vsl 20 160 0 2 0 0 mic2_gain-snd mic2_gain-rcv mic2 0
--15 0 20 -262144 -1 -1 8000 1;
-#X obj 455 189 hsl 26 8 0 127 0 0 mic2-thres-snd mic2-thres-rcv empty
--2 -8 0 10 -262131 -262131 -262144 0 1;
-#X obj 458 79 vu 20 160 mic2_vu empty -1 -8 0 10 -66577 -1 0 0;
-#X obj 498 78 vsl 20 160 0 2 0 0 mic3_gain-snd mic3_gain-rcv mic3+4
-0 -15 0 20 -262144 -1 -1 8100 1;
-#X obj 524 189 hsl 26 8 0 127 0 0 mic3-thres-snd mic3-thres-rcv empty
--2 -8 0 10 -257985 -257985 -1 0 1;
-#X obj 527 79 vu 20 160 mic3_vu empty -1 -8 0 10 -66577 -1 0 0;
-#X obj 404 466 apf config mic1_gain mic1_gain 2;
-#X obj 404 488 apf config mic2_gain mic2_gain 2;
-#X obj 404 511 apf config mic3_gain mic3_gain 2;
-#X obj 309 405 r \$0-save;
-#X obj 102 400 r \$0-reload;
-#X obj 101 279 cnv 15 220 30 empty empty empty 20 12 0 14 -228856 -66577
+#X obj 47 123 hsl 200 30 0 1 0 0 mix-Nappe-snd mix-Nappe-rcv Nappe
+5 15 0 20 #fcfcc4 #fc0400 #000000 0 1;
+#X obj 47 156 hsl 200 30 0 1 0 0 mix-SynthMono-snd mix-SynthMono-rcv
+SynthMono 5 15 0 20 #fcfcc4 #fc0400 #000000 0 1;
+#X obj 47 198 hsl 200 30 0 1 0 0 mix-Accord-snd mix-Accord-rcv Accord
+5 15 0 20 #c4c4fc #fc0400 #000000 0 1;
+#X obj 47 231 hsl 200 30 0 1 0 0 mix-Basse-snd mix-Basse-rcv Basse
+5 15 0 20 #c4c4fc #fc0400 #000000 0 1;
+#X obj 47 268 hsl 200 30 0 1 0 0 mix-Master-snd mix-Master-rcv Master
+5 15 0 20 #fce0c4 #fc0400 #000000 0 1;
+#X obj 21 28 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
+#X obj 528 48 declare -path AutoPreset;
+#X obj 706 49 apmaster config;
+#X obj 528 103 apmasterfile config config.txt;
+#X obj 617 75 loadbang;
+#X obj 528 179 apf config mix-Nappe mix-Nappe 2;
+#X obj 528 202 apf config mix-SynthMono mix-SynthMono 2;
+#X obj 528 230 apf config mix-Accord mix-Accord 2;
+#X obj 528 252 apf config mix-Basse mix-Basse 2;
+#X obj 528 280 apf config mix-Master mix-Master 2;
+#X obj 258 73 vu 20 200 master_vu empty -1 -8 0 10 #404040 #000000
+0 0;
+#X obj 293 77 vsl 20 160 0 2 0 0 mic1_gain-snd mic1_gain-rcv mic1 0
+-15 0 20 #fcfcfc #000000 #000000 0 1;
+#X obj 319 188 hsl 26 8 0 127 0 0 mic1-thres-snd mic1-thres-rcv empty
+-2 -8 0 10 #fcfcc8 #fcfcc8 #fcfcfc 0 1;
+#X obj 322 78 vu 20 160 mic1_vu empty -1 -8 0 10 #404040 #000000 0
 0;
-#X obj 194 286 bng 20 250 50 0 \$0-reload \$0-reload reload 24 10 0
-20 -4034 -1 -1;
-#X obj 110 286 bng 20 250 50 0 \$0-save \$0-save save 24 10 0 20 -258113
--1 -1;
-#X obj 353 255 nbx 3 16 0 100 0 0 mic1-force-snd mic1-force-rcv force
-0 -6 0 14 -261234 -1 -1 0 256;
-#X obj 353 293 nbx 3 16 0 100 0 0 mic1-justesse-snd mic1-justesse-rcv
-juste 0 -8 0 14 -204786 -1 -1 0 256;
-#X obj 428 255 nbx 3 16 0 100 0 0 mic2-force-snd mic2-force-rcv force
-0 -6 0 14 -261234 -1 -1 0 256;
-#X obj 428 293 nbx 3 16 0 100 0 0 mic2-justesse-snd mic2-justesse-rcv
-juste 0 -8 0 14 -204786 -1 -1 0 256;
-#X obj 498 255 nbx 3 16 0 100 0 0 mic3-force-snd mic3-force-rcv force
-0 -6 0 14 -261234 -1 -1 0 256;
-#X obj 498 293 nbx 3 16 0 100 0 0 mic3-justesse-snd mic3-justesse-rcv
-juste 0 -8 0 14 -204786 -1 -1 0 256;
-#X obj 102 601 r Analyse;
-#X obj 102 622 route mic1 mic2 mic3, f 88;
-#X obj 102 720 s mic1-justesse-rcv;
-#X obj 164 697 s mic1-force-rcv;
-#X obj 368 694 s mic2-force-rcv;
-#X obj 306 719 s mic2-justesse-rcv;
-#X obj 572 695 s mic3-force-rcv;
-#X obj 510 721 s mic3-justesse-rcv;
-#X obj 102 647 route justesse force impact;
-#X obj 306 647 route justesse force impact;
-#X obj 510 648 route justesse force impact;
-#X obj 226 672 s mic1-impact-rcv;
-#X obj 430 671 s mic2-impact-rcv;
-#X obj 634 672 s mic3-impact-rcv;
-#X obj 353 329 bng 20 250 50 0 mic1-impact-snd mic1-impact-rcv impact
-0 -8 0 14 -262130 -1 -1;
-#X obj 428 329 bng 20 250 50 0 mic2-impact-snd mic2-impact-rcv impact
-0 -8 0 14 -262130 -1 -1;
-#X obj 499 329 bng 20 250 50 0 mic3-impact-snd mic3-impact-rcv impact
-0 -8 0 14 -262130 -1 -1;
-#X obj 109 320 hsl 200 30 10 40 0 0 impact_seuil-snd impact_seuil-rcv
-Seuil_impact:26 5 15 0 20 -262130 -258113 -1 0 1;
-#X obj 403 544 apf config impact_seuil impact_seuil 2;
-#X obj 692 447 r impact_seuil-snd;
-#X obj 692 471 i;
-#X obj 692 495 change;
-#X msg 692 519 label Seuil_impact:\$1;
-#X obj 692 543 s impact_seuil-rcv;
+#X obj 369 78 vsl 20 160 0 2 0 0 mic2_gain-snd mic2_gain-rcv mic2 0
+-15 0 20 #fcfcfc #000000 #000000 0 1;
+#X obj 395 189 hsl 26 8 0 127 0 0 mic2-thres-snd mic2-thres-rcv empty
+-2 -8 0 10 #fcfcc8 #fcfcc8 #fcfcfc 0 1;
+#X obj 398 79 vu 20 160 mic2_vu empty -1 -8 0 10 #404040 #000000 0
+0;
+#X obj 438 78 vsl 20 160 0 2 0 0 mic3_gain-snd mic3_gain-rcv mic3+4
+0 -15 0 20 #fcfcfc #000000 #000000 0 1;
+#X obj 464 189 hsl 26 8 0 127 0 0 mic3-thres-snd mic3-thres-rcv empty
+-2 -8 0 10 #f8fc00 #f8fc00 #000000 0 1;
+#X obj 467 79 vu 20 160 mic3_vu empty -1 -8 0 10 #404040 #000000 0
+0;
+#X obj 830 178 apf config mic1_gain mic1_gain 2;
+#X obj 830 200 apf config mic2_gain mic2_gain 2;
+#X obj 830 223 apf config mic3_gain mic3_gain 2;
+#X obj 735 80 r \$0-save;
+#X obj 528 75 r \$0-reload;
+#X obj 43 74 cnv 15 200 30 empty empty empty 20 12 0 14 #dcdcdc #404040
+0;
+#X obj 143 81 bng 20 250 50 0 \$0-reload \$0-reload reload 24 10 0
+20 #00fc04 #000000 #000000;
+#X obj 52 81 bng 20 250 50 0 \$0-save \$0-save save 24 10 0 20 #fc0400
+#000000 #000000;
+#X obj 293 255 nbx 3 16 0 100 0 0 mic1-force-snd mic1-force-rcv force
+0 -6 0 14 #fcc4c4 #000000 #000000 0 256;
+#X obj 293 293 nbx 3 16 0 100 0 0 mic1-justesse-snd mic1-justesse-rcv
+juste 0 -8 0 14 #c4fcc4 #000000 #000000 0 256;
+#X obj 368 255 nbx 3 16 0 100 0 0 mic2-force-snd mic2-force-rcv force
+0 -6 0 14 #fcc4c4 #000000 #000000 0 256;
+#X obj 368 293 nbx 3 16 0 100 0 0 mic2-justesse-snd mic2-justesse-rcv
+juste 0 -8 0 14 #c4fcc4 #000000 #000000 0 256;
+#X obj 438 255 nbx 3 16 0 100 0 0 mic3-force-snd mic3-force-rcv force
+0 -6 0 14 #fcc4c4 #000000 #000000 0 256;
+#X obj 438 293 nbx 3 16 0 100 0 0 mic3-justesse-snd mic3-justesse-rcv
+juste 0 -8 0 14 #c4fcc4 #000000 #000000 0 256;
+#X obj 193 492 r Analyse;
+#X obj 193 513 route mic1 mic2 mic3, f 88;
+#X obj 193 611 s mic1-justesse-rcv;
+#X obj 255 588 s mic1-force-rcv;
+#X obj 459 585 s mic2-force-rcv;
+#X obj 397 610 s mic2-justesse-rcv;
+#X obj 663 586 s mic3-force-rcv;
+#X obj 601 612 s mic3-justesse-rcv;
+#X obj 193 538 route justesse force impact;
+#X obj 397 538 route justesse force impact;
+#X obj 601 539 route justesse force impact;
+#X obj 317 563 s mic1-impact-rcv;
+#X obj 521 562 s mic2-impact-rcv;
+#X obj 725 563 s mic3-impact-rcv;
+#X obj 293 329 bng 20 250 50 0 mic1-impact-snd mic1-impact-rcv impact
+0 -8 0 14 #fcfcc4 #000000 #000000;
+#X obj 368 329 bng 20 250 50 0 mic2-impact-snd mic2-impact-rcv impact
+0 -8 0 14 #fcfcc4 #000000 #000000;
+#X obj 439 329 bng 20 250 50 0 mic3-impact-snd mic3-impact-rcv impact
+0 -8 0 14 #fcfcc4 #000000 #000000;
+#X obj 46 322 hsl 200 30 10 40 0 0 impact_seuil-snd impact_seuil-rcv
+Seuil_impact:26 5 15 0 20 #fcfcc4 #fc0400 #000000 0 1;
+#X obj 829 256 apf config impact_seuil impact_seuil 2;
+#X obj 835 47 r impact_seuil-snd;
+#X obj 835 71 i;
+#X obj 835 95 change;
+#X msg 835 119 label Seuil_impact:\$1;
+#X obj 835 143 s impact_seuil-rcv;
+#X obj 288 361 hsl 200 20 0 1 0 0 speed-justesseUp-snd speed-justesseUp-rcv
+justesse_vitesse_montée 5 10 0 12 #c6ffc7 #fc0400 #000000 0 1;
+#X obj 288 382 hsl 200 20 0 1 0 0 speed-justesseDn-snd speed-justesseDn-rcv
+justesse_vitesse_descente 5 10 0 12 #c6ffc7 #fc0400 #000000 0 1;
+#X obj 46 361 hsl 200 20 0 1 0 0 speed-forceUp-snd speed-forceUp-rcv
+force_vitesse_montée 5 10 0 12 #ffc7c6 #fc0400 #000000 0 1;
+#X obj 46 382 hsl 200 20 0 1 0 0 speed-forceDn-snd speed-forceDn-rcv
+force_vitesse_descente 5 10 0 12 #ffc7c6 #fc0400 #000000 0 1;
+#X obj 818 318 apf config speed-justesseUp speed-justesseUp 2;
+#X obj 818 340 apf config speed-justesseDn speed-justesseDn 2;
+#X obj 527 319 apf config speed-forceUp speed-forceUp 2;
+#X obj 527 340 apf config speed-forceDn speed-forceDn 2;
 #X connect 5 0 0 0;
 #X connect 5 0 1 0;
 #X connect 5 0 2 0;
@@ -113,4 +129,4 @@ Seuil_impact:26 5 15 0 20 -262130 -258113 -1 0 1;
 #X connect 59 0 60 0;
 #X connect 60 0 61 0;
 #X connect 61 0 62 0;
-#X coords 0 -1 1 1 470 310 1 100 50;
+#X coords 0 -1 1 1 470 360 1 40 50;
