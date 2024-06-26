@@ -1,4 +1,4 @@
-#N canvas 333 39 638 375 12;
+#N canvas 490 37 638 375 12;
 #X declare -path Fraise;
 #X obj 20 18 declare -path Fraise;
 #X obj 25 62 pied/pied 1;
@@ -25,7 +25,10 @@
 #X obj 485 302 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 521 302 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 557 302 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 9 339 s \$0-buttons;
+#X obj 383 130 send_OSC \$0;
 #X connect 2 0 12 0;
+#X connect 2 0 25 0;
 #X connect 2 2 7 0;
 #X connect 4 0 2 0;
 #X connect 6 0 5 1;

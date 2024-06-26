@@ -31,7 +31,7 @@ void piezo_handler(uint gpio, uint32_t events)
     bool final = false;
 
     if(!on) {
-        debouce_timer[gpio] = make_timeout_time_ms(80);
+        debouce_timer[gpio] = make_timeout_time_ms(40);
     }
     else if(time_reached(debouce_timer[gpio])) {
         printf("P %d\n", gpio);
