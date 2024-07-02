@@ -20,7 +20,7 @@ const uint LED_PIN = PICO_DEFAULT_LED_PIN;
 absolute_time_t debouce_timer[16];
 bool state[16];
 bool last_state[16];
-unsigned int encoder, last_encoder;
+uint16_t encoder, last_encoder;
 
 void piezo_handler(uint gpio, uint32_t events)
 {
@@ -49,11 +49,11 @@ void piezo_handler(uint gpio, uint32_t events)
         return;
     }
 
-    debouce_timer[gpio] = make_timeout_time_ms(20);
-    if(state[gpio] != on) {
+    debouce_timer[gpio] = make_timeout_time_ms(10);
+    //if(state[gpio] != on) {
         state[gpio] = on;
         //printf("S %d %d\n", gpio, on);
-    }
+    //}
 }
 
 repeating_timer_t tick_timer;
@@ -82,7 +82,7 @@ void setup() {
         gpio_pull_up(i);
         gpio_set_irq_enabled_with_callback(i, GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL, true, piezo_handler);
     }
-    add_repeating_timer_ms(20, tick_callback, NULL, &tick_timer);
+    add_repeating_timer_ms(5, tick_callback, NULL, &tick_timer);
 }
 
 void fraise_receivebytes(const char* data, uint8_t len) {

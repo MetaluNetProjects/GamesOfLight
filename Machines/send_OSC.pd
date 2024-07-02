@@ -1,4 +1,4 @@
-#N canvas 836 99 437 338 10;
+#N canvas 836 99 623 338 10;
 #X obj 21 281 netsend -b -u;
 #X obj 21 180 list prepend send;
 #X obj 21 204 list trim;
@@ -9,7 +9,9 @@
 #X obj 21 47 r \$1-buttons;
 #X obj 160 44 r \$1-encoder;
 #X obj 21 132 oscformat -f ii /btn;
-#X obj 160 129 oscformat -f i /enc;
+#X obj 160 133 oscformat -f i /enc;
+#X obj 303 44 r \$0-encoder_speed;
+#X obj 303 133 oscformat -f i /speed;
 #X connect 0 0 4 0;
 #X connect 1 0 2 0;
 #X connect 2 0 0 0;
@@ -20,3 +22,5 @@
 #X connect 8 0 10 0;
 #X connect 9 0 1 0;
 #X connect 10 0 1 0;
+#X connect 11 0 12 0;
+#X connect 12 0 1 0;
