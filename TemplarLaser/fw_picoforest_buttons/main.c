@@ -24,7 +24,7 @@ void buttons_handler(uint gpio, uint32_t events)
 {
     bool on = !gpio_get(gpio);
 
-    debouce_timer[gpio] = make_timeout_time_ms(20);
+    debouce_timer[gpio] = make_timeout_time_ms(10);
     state[gpio] = on;
 }
 
@@ -50,7 +50,7 @@ void setup() {
         gpio_pull_up(i);
         gpio_set_irq_enabled_with_callback(i, GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL, true, buttons_handler);
     }
-    add_repeating_timer_ms(10, tick_callback, NULL, &tick_timer);
+    add_repeating_timer_ms(5, tick_callback, NULL, &tick_timer);
 }
 
 void fraise_receivebytes(const char* data, uint8_t len) {
