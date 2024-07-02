@@ -1,4 +1,4 @@
-#N canvas 490 37 638 375 12;
+#N canvas 490 37 638 569 12;
 #X declare -path Fraise;
 #X obj 20 18 declare -path Fraise;
 #X obj 25 62 pied/pied 1;
@@ -6,7 +6,7 @@
 #X obj 193 204 fruit/send fruit1;
 #X msg 309 177 Ehello;
 #X obj 70 244 print from_fruit1;
-#X obj 24 339 s \$0-buttons;
+#X obj 24 402 s \$0-buttons;
 #X obj 383 130 send_OSC \$0;
 #X obj 40 272 route 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15, f 82;
 #X obj 40 298 tgl 20 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
@@ -27,6 +27,12 @@
 #X obj 574 298 tgl 20 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 24 139 fruit/fruit 1 fruit1 0 fw_picoforest_buttons;
 #X obj 24 219 route S;
+#X obj 158 378 noise~;
+#X obj 158 403 *~;
+#X obj 158 428 *~ 0.2;
+#X obj 158 453 dac~;
+#X obj 294 392 tgl 20 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 294 423 switch~;
 #X connect 2 0 26 0;
 #X connect 4 0 3 1;
 #X connect 8 0 9 0;
@@ -45,6 +51,11 @@
 #X connect 8 13 22 0;
 #X connect 8 14 23 0;
 #X connect 8 15 24 0;
+#X connect 9 0 28 1;
 #X connect 26 0 6 0;
 #X connect 26 0 8 0;
 #X connect 26 1 5 0;
+#X connect 27 0 28 0;
+#X connect 28 0 29 0;
+#X connect 29 0 30 0;
+#X connect 31 0 32 0;
