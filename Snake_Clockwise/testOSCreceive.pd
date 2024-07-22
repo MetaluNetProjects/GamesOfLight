@@ -1,0 +1,24 @@
+#N canvas 14 595 375 238 12;
+#X obj 40 77 oscparse;
+#X obj 40 105 list trim;
+#X obj 40 52 netreceive -u -b 8000;
+#X text 38 23 OSC receiver for testing Templar;
+#X obj 40 158 tgl 30 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X obj 40 129 route btn1 btn2 btn3 btn4 btn5;
+#X obj 81 157 tgl 30 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X obj 122 157 tgl 30 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X obj 164 156 tgl 30 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X obj 205 155 tgl 30 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X connect 0 0 1 0;
+#X connect 1 0 5 0;
+#X connect 2 0 0 0;
+#X connect 5 0 4 0;
+#X connect 5 1 6 0;
+#X connect 5 2 7 0;
+#X connect 5 3 8 0;
+#X connect 5 4 9 0;
