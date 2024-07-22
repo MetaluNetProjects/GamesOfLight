@@ -1,4 +1,4 @@
-#N canvas 476 112 741 886 12;
+#N canvas 476 112 912 818 12;
 #X declare -path Fraise;
 #X obj 20 18 declare -path Fraise;
 #X obj 25 62 pied/pied 1;
@@ -87,6 +87,15 @@
 #X msg 470 308 set \$1;
 #X obj 470 359 i;
 #X msg 540 306 0;
+#X obj 667 29 moonlib/mknob 150 -1 0 2000 0 0 empty empty empty -2 -6 0 8 #feffc6 #000000 #000000 9903 1;
+#X obj 667 185 t f f;
+#X obj 667 210 -;
+#X obj 667 310 +;
+#X obj 698 310 mod 65536;
+#X obj 667 335 s \$0-encoder;
+#X obj 667 235 + 1000;
+#X obj 667 260 mod 2000;
+#X obj 667 284 - 1000;
 #X connect 2 0 4 1;
 #X connect 5 0 83 0;
 #X connect 9 0 10 0;
@@ -185,3 +194,13 @@
 #X connect 85 0 28 0;
 #X connect 85 0 15 0;
 #X connect 86 0 16 0;
+#X connect 87 0 88 0;
+#X connect 88 0 89 1;
+#X connect 88 1 89 0;
+#X connect 89 0 93 0;
+#X connect 90 0 91 0;
+#X connect 90 0 92 0;
+#X connect 91 0 90 1;
+#X connect 93 0 94 0;
+#X connect 94 0 95 0;
+#X connect 95 0 90 0;
