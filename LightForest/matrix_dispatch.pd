@@ -1,0 +1,11 @@
+#N canvas 51 108 309 135 12;
+#X obj 37 56 list prepend \$1;
+#X obj 37 32 r \$2\$1-snd;
+#X obj 37 80 s \$2-snd;
+#X obj 182 29 r \$2-rcv;
+#X obj 182 53 route \$1;
+#X obj 182 77 s \$2\$1-rcv;
+#X connect 0 0 2 0;
+#X connect 1 0 0 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
