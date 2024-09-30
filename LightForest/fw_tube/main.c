@@ -61,7 +61,7 @@ void setup() {
     for(int i = 0; i < 16; i++) {
         gpio_init(i);
         gpio_set_dir(i, GPIO_IN);
-        gpio_pull_up(i);
+        //gpio_pull_up(i);
         gpio_set_irq_enabled_with_callback(i, GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL, true, piezo_handler);
     }
     add_repeating_timer_ms(250, tick_callback, NULL, &tick_timer);
