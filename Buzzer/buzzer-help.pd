@@ -1,0 +1,9 @@
+#N canvas 951 343 450 300 12;
+#X obj 55 84 buzzer;
+#A saved 1 0.411765 0.798319;
+#X obj 55 46 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 223 84 buzzer;
+#A saved 0 0.336134 0.789916;
+#X obj 223 46 bng 20 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X connect 1 0 0 0;
+#X connect 3 0 2 0;
