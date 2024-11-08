@@ -1,4 +1,4 @@
-#N canvas 95 25 656 978 12;
+#N canvas 126 19 656 978 12;
 #X declare -path Fraise -path moonlib -path stuff/AutoPreset -path stuff;
 #X declare -path iemlib -lib iemlib -path zexy -lib zexy;
 #X obj 10 9 pied/pied 1;
@@ -14,7 +14,7 @@
 #X obj 9 672 dynamo 9;
 #X obj 259 38 hsl 170 20 0.01 1 1 0 dynamos-speed-gain-snd dynamos-speed-gain-rcv dynamos-speed-gain -2 -10 0 12 #c6ffc7 #000000 #000000 0 1;
 #X obj 434 38 nbx 5 20 -1e+37 1e+37 0 0 dynamos-speed-gain-snd dynamos-speed-gain-rcv empty 0 -10 0 12 #c6ffc7 #000000 #000000 0 256;
-#N canvas 363 63 914 665 guts 0;
+#N canvas 694 55 914 665 guts 0;
 #X obj 64 42 loadbang;
 #X obj 64 67 metro 1000;
 #X obj 35 41 tgl 20 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
@@ -67,6 +67,9 @@
 #X obj 389 427 apf dynconfig manivelle-force-forward dynamo-manivelle-force-forward 2, f 71;
 #X obj 64 526 r RELOAD_ALL;
 #X obj 9 7 declare -path Fraise -path moonlib -path stuff/AutoPreset -path stuff, f 70;
+#X obj 639 189 r dynamos-from-OSC;
+#X obj 639 214 route audioOn;
+#X obj 639 239 s dynamos-audioOn;
 #X connect 0 0 1 0;
 #X connect 0 0 46 0;
 #X connect 1 0 3 0;
@@ -106,6 +109,8 @@
 #X connect 42 0 43 0;
 #X connect 43 0 44 0;
 #X connect 50 0 24 0;
+#X connect 52 0 53 0;
+#X connect 53 0 54 0;
 #X restore 168 8 pd guts;
 #X obj 164 672 cnv 20 200 70 empty empty Dynamo9\ assign 20 12 0 12 #e0e0e0 #404040 0;
 #X obj 176 716 hradio 21 1 0 8 dynamo9-assign-snd dynamo9-assign-rcv 1__2__3__4__5__6__7__8 5 -10 0 12 #feffc6 #000000 #000000 0;
@@ -118,7 +123,7 @@
 #X obj 164 526 dynamaudio 7;
 #X obj 164 599 dynamaudio 8;
 #X obj 513 37 bng 20 250 50 0 RELOAD_ALL RELOAD_ALL RELOAD_ALL 0 -10 0 12 #fcfcfc #000000 #000000;
-#N canvas 115 316 508 280 audio_master 0;
+#N canvas 115 316 508 325 audio_master 0;
 #X obj 21 25 declare -path iemlib -lib iemlib -path zexy -lib zexy;
 #X obj 20 59 clone -s 1 outchan 10;
 #X obj 166 134 vsl 20 120 0 1.5 0 0 dynamo-Master-snd dynamo-Master-rcv empty 0 -9 0 12 #ff0400 #000000 #000000 0 1;
@@ -133,6 +138,15 @@
 #X obj 137 135 vu 10 120 dynout9_vu 9 -1 -10 0 12 #404040 #000000 0 0;
 #X obj 151 135 vu 10 120 dynout10_vu 10 -1 -10 0 12 #404040 #000000 0 0;
 #X obj 182 60 apf dynconfig dynamo-Master dynamo-Master 2;
+#X obj 274 229 s dynamos-audioOn-line;
+#X obj 274 154 change;
+#X obj 274 204 line;
+#X obj 274 128 r dynamos-audioOn;
+#X msg 274 179 \$1 1000;
+#X connect 15 0 18 0;
+#X connect 16 0 14 0;
+#X connect 17 0 15 0;
+#X connect 18 0 16 0;
 #X coords 0 -1 1 1 170 160 1 20 100;
 #X restore 9 756 pd audio_master;
 #X obj 199 769 tgl 20 0 dynamo-manivelle-force-forward-snd dynamo-manivelle-force-forward-rcv manivelle-force-forward 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
@@ -358,3 +372,4 @@
 #X text 33 1439 ____________________________________________________________________________________________, f 93;
 #X text 60 152 La dynamo "9" est un capteur de secours. Elle peut être assignée à n'importe quel identifiant (de 1 à 8) grâce au sélecteur "Dynamo9 assign"., f 89;
 #X restore 519 128 pd DOC;
+#X obj 518 226 tgl 50 0 dynamos-audioOn dynamos-audioOn AudioOn 0 -10 0 12 #00ff04 #000000 #000000 0 1;
