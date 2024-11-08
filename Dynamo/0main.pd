@@ -278,13 +278,14 @@
 #X obj 46 38 cnv 20 600 20 empty dynamos-wavdirs-can ./wavs 5 12 0 10 #c6feff #404040 0;
 #X obj 233 400 s dynamos-wavdirs-can;
 #X msg 233 374 label \$1;
-#X obj 62 87 r dynamos-wavsdir;
+#X obj 62 91 r dynamos-wavsdir;
 #X obj 118 393 file isabsolute;
 #X obj 23 367 t s s, f 14;
 #X obj 23 418 list prepend 0;
 #X obj 23 443 route 0 1;
 #X obj 53 471 symbol;
-#X connect 0 0 1 0;
+#X obj 23 66 del 100;
+#X connect 0 0 29 0;
 #X connect 1 0 3 0;
 #X connect 3 0 4 0;
 #X connect 4 0 2 0;
@@ -310,9 +311,10 @@
 #X connect 27 0 13 0;
 #X connect 27 1 28 0;
 #X connect 28 0 8 0;
+#X connect 29 0 1 0;
 #X coords 0 -1 1 1 630 40 1 20 20;
 #X restore 9 922 pd wavsdir;
-#N canvas 787 21 803 981 DOC 1;
+#N canvas 787 21 803 981 DOC 0;
 #X text 61 63 Le paramètre "dynamos-speed-gain" permet de régler la sensibilité des capteurs. Le régler de façon à ce que la vitesse renvoyée ("speed") soit d'environ 500 quand on fait tourner la manivelle rapidement., f 89;
 #X text 29 198 Réglages audio par Dynamo :;
 #X text 65 219 Chaque canal "dynamaudio" peut être assigné à un canal de sortie audio \, entre 1 et 10 \, à un volume réglable., f 88;
