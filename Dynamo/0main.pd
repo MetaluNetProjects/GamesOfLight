@@ -57,8 +57,8 @@
 #X obj 389 265 r dynamos-speed-gain;
 #X obj 389 315 s dynamos-speed-gain-rcv;
 #X obj 389 350 apf dynconfig dynamos-speed-gain dynamos-speed-gain 2, f 55;
-#X obj 639 91 netreceive -b -u 9000;
-#X obj 639 116 oscparse;
+#X obj 639 70 netreceive -b -u 9000;
+#X obj 639 95 oscparse;
 #X obj 639 141 s dynamos-from-OSC;
 #X obj 570 28 bng 20 250 50 0 RELOAD_ALL RELOAD_ALL RELOAD_ALL 0 -10 0 12 #fcfcfc #000000 #000000;
 #X msg 241 78 \; pd dsp 1;
@@ -70,6 +70,7 @@
 #X obj 639 189 r dynamos-from-OSC;
 #X obj 639 214 route audioOn;
 #X obj 639 239 s dynamos-audioOn;
+#X obj 639 118 list trim;
 #X connect 0 0 1 0;
 #X connect 0 0 46 0;
 #X connect 1 0 3 0;
@@ -107,10 +108,11 @@
 #X connect 37 0 38 0;
 #X connect 39 0 25 0;
 #X connect 42 0 43 0;
-#X connect 43 0 44 0;
+#X connect 43 0 55 0;
 #X connect 50 0 24 0;
 #X connect 52 0 53 0;
 #X connect 53 0 54 0;
+#X connect 55 0 44 0;
 #X restore 168 8 pd guts;
 #X obj 164 672 cnv 20 200 70 empty empty Dynamo9\ assign 20 12 0 12 #e0e0e0 #404040 0;
 #X obj 176 716 hradio 21 1 0 8 dynamo9-assign-snd dynamo9-assign-rcv 1__2__3__4__5__6__7__8 5 -10 0 12 #feffc6 #000000 #000000 0;
