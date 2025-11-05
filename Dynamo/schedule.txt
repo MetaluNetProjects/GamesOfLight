@@ -1,0 +1,40 @@
+#Schedule VIENNE 01
+
+#rebouclage début année
+
+date 01 01
+days 1 2 3 4 5 6 7
+hours 16 15 22 00
+
+
+# fin de session
+
+date 12 01
+
+
+# test
+
+#date 05 11
+#days 1 2 3 4 5 6 7
+#hours 15 00 17 6
+
+
+# début session
+
+date 14 11
+days 1 2 3 4 5 6 7
+hours 16 30 22 00
+
+
+# off pour noel
+
+date 24 12
+
+
+#reprise le 25
+
+date 25 12
+days 1 2 3 4 5 6 7
+hours 16 15 22 00
+
+

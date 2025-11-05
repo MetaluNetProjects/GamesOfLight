@@ -1,4 +1,4 @@
-#N canvas 528 19 404 404 10;
+#N canvas 859 25 571 404 10;
 #X obj 19 341 netsend -b -u;
 #X obj 19 168 list prepend send;
 #X obj 19 192 list trim;
@@ -11,6 +11,9 @@
 #X obj 19 39 r dynamos;
 #X obj 19 84 route pos speed, f 56;
 #X obj 185 113 oscformat -f ii /wheel;
+#X obj 379 113 oscformat -f i /globalOn;
+#X obj 379 86 r scheduler-PLAY;
+#X text 18 5 OSC sender patch for Dynamos;
 #X connect 0 0 4 0;
 #X connect 1 0 2 0;
 #X connect 2 0 7 0;
@@ -23,3 +26,5 @@
 #X connect 10 0 8 0;
 #X connect 10 1 11 0;
 #X connect 11 0 1 0;
+#X connect 12 0 1 0;
+#X connect 13 0 12 0;
