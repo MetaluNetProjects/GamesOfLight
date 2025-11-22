@@ -7,14 +7,12 @@
 #X obj 19 188 loadbang;
 #X msg 19 209 \; pd dsp 1;
 #X obj 15 28 declare -path motex -path motex -lib motex;
-#X obj 15 47 declare -path iemlib -lib iemlib -path zexy -lib zexy
-;
+#X obj 15 47 declare -path iemlib -lib iemlib -path zexy -lib zexy;
 #X obj 19 73 loadbang;
 #X msg 19 94 1;
 #X obj 19 136 metro 20;
 #X obj 19 157 s LFOrnd-bang;
-#X obj 19 117 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
-#000000 0 1;
+#X obj 19 117 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 15 9 declare -path absGAMME;
 #N canvas 1038 188 497 433 MASTER 0;
 #X obj 134 19 catch~ master;
@@ -28,12 +26,10 @@
 #X obj 149 149 mull~ 0 50;
 #X obj 149 172 rev3~ 100 90 2000 30;
 #X obj 10 39 catch~ master-norev;
-#X obj 298 170 hsl 128 15 0 1 0 1 empty empty empty -2 -8 0 10 #fcfcfc
-#000000 #000000 6765 1;
+#X obj 298 170 hsl 128 15 0 1 0 1 empty empty empty -2 -8 0 10 #fcfcfc #000000 #000000 6765 1;
 #X obj 176 248 limiter~;
 #X obj 136 249 z~ 64;
-#X obj 192 99 hsl 128 15 0 1 0 1 empty empty empty -2 -8 0 10 #fcfcfc
-#000000 #000000 12100 1;
+#X obj 192 99 hsl 128 15 0 1 0 1 empty empty empty -2 -8 0 10 #fcfcfc #000000 #000000 12100 1;
 #X obj 173 56 delwrite~ \$0-preDel 1000;
 #X obj 172 77 delread~ \$0-preDel 500;
 #X obj 295 139 r mix-Master-snd;
@@ -106,12 +102,10 @@
 #X obj 265 36 r \$0-basse;
 #X obj 35 57 s \$0-gam;
 #X obj 18 195 random 12;
-#X obj 45 149 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
-#000000;
+#X obj 45 149 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000;
 #X obj 50 257 + 24;
 #X obj 25 301 s \$0-basse;
-#X obj 25 105 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
-#000000 0 1;
+#X obj 25 105 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 22 81 loadbang;
 #X obj 458 90 r \$0-xtalgam;
 #X msg 8 33 2709;
@@ -170,8 +164,7 @@
 #X msg 46 33 145;
 #X obj 37 7 loadbang;
 #X obj 87 157 random 3;
-#X obj 18 172 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
-#000000;
+#X obj 18 172 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000;
 #X obj 28 122 metro 16000;
 #X connect 1 0 4 0;
 #X connect 3 0 1 0;
@@ -377,8 +370,7 @@
 #X obj 299 275 r Analyse;
 #X obj 299 296 spigot;
 #X obj 299 317 print;
-#X obj 348 298 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
-#000000 0 1;
+#X obj 348 298 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 140 285 s Analyse;
 #X obj 140 263 list trim;
 #X obj 576 89 adc~ 4;
@@ -409,6 +401,5 @@
 #X connect 32 0 31 0;
 #X connect 33 0 23 0;
 #X restore 181 33 pd stuff;
-#X obj 16 10 cnv 15 150 40 empty empty Arbre 10 20 2 30 #e0e0e0 #404040
-0;
-#X obj 270 32 send_OSC;
+#X obj 16 10 cnv 15 150 40 empty empty Arbre 10 20 2 30 #e0e0e0 #404040 0;
+#X obj 270 32 send_OSC_Arbre;

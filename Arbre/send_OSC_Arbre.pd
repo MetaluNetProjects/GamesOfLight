@@ -1,0 +1,4 @@
+#N canvas 143 408 309 137 10;
+#X obj 25 36 tgl 18 1 empty empty to_RESOLUME 0 -9 0 10 #feffc6 #000000 #000000 1 1;
+#X obj 25 59 send_OSC_Arbre_Resolume;
+#X connect 0 0 1 0;
