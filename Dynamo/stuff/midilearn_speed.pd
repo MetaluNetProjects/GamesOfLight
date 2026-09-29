@@ -1,0 +1,4 @@
+#N canvas 574 169 826 242 12;
+#X obj 20 20 midilearn_ctl \$1 speed;
+#X obj 384 20 midilearn_ctl \$1 speedinv;
+#X coords 0 -1 1 1 724 46 1 20 20;
